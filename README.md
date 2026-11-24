@@ -1,5 +1,7 @@
 # Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock
 
+[Paper (arXiv:2611.30895)](https://arxiv.org/abs/2611.30895) · [Model weights (Hugging Face collection)](https://huggingface.co/collections/bhc6/speak-when-you-see-it-ect) · [Paper page](https://huggingface.co/papers/2611.30895)
+
 Code and results for the paper by Bohe Chen ([arXiv:2611.30895](https://arxiv.org/abs/2611.30895)). ECT LoRA adapters on Hugging Face: [`bhc6/ECT-Qwen3-VL-2B`](https://huggingface.co/bhc6/ECT-Qwen3-VL-2B) (four seeds and the no-paired-negatives ablation), [`bhc6/ECT-Qwen3-VL-4B`](https://huggingface.co/bhc6/ECT-Qwen3-VL-4B), [`bhc6/ECT-InternVL3.5-2B`](https://huggingface.co/bhc6/ECT-InternVL3.5-2B), [`bhc6/ECT-LLaVA-OneVision-7B`](https://huggingface.co/bhc6/ECT-LLaVA-OneVision-7B). This repository holds the code and results used
 to check the paper's analyses; section references ("supplement Sec. B") point to the supplementary material
 appended to the arXiv PDF.
