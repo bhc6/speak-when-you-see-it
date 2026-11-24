@@ -1,0 +1,4 @@
+ours_v3_no_comist text-only AUROC mistake vs rest 0.553 {('silence', 'qicd'): 6315, ('mistake', 'qicd'): 1938, ('shifted', 'qicd'): 363, ('clean', 'matched'): 1159}
+v3_with_comist text-only AUROC mistake vs rest 0.918 {('silence', 'qicd'): 6315, ('mistake', 'qicd'): 1938, ('shifted', 'qicd'): 363, ('mistake', 'comist'): 11832, ('shifted', 'comist'): 877, ('clean', 'matched'): 12782}
+build_v4: CoMist pairs kept 3924, dropped 20 (no >=50% overlap with a mistake-free QICD step)
+v4_comist_rewritten+paired text-only AUROC 0.783

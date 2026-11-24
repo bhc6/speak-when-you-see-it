@@ -1,0 +1,222 @@
+{
+ "rule": "Ego-MC long mistake-free steps; F: ECT >=3/4 seeds on time and '+ clean' >=1/2 early; R: reverse; frames at start, earliest early confirmation, midpoint, annotated end",
+ "cut": 38.200000000000045,
+ "cases": [
+  {
+   "tag": "F",
+   "video": "GX010037",
+   "step": 15,
+   "dur": 38.6,
+   "time_expr": false,
+   "early_confirm": 1374.5,
+   "times": [
+    1369.615167,
+    1374.5,
+    1391.3575835000001,
+    1408.215167
+   ],
+   "clean_offsets": [
+    -33.7,
+    -3.7
+   ],
+   "ect_offsets": [
+    -23.7,
+    -3.7,
+    -3.7,
+    -3.7
+   ]
+  },
+  {
+   "tag": "F",
+   "video": "GX010046",
+   "step": 6,
+   "dur": 59.9,
+   "time_expr": false,
+   "early_confirm": 358.0,
+   "times": [
+    333.1,
+    358.0,
+    375.4875,
+    392.975
+   ],
+   "clean_offsets": [
+    -35.0,
+    -5.0
+   ],
+   "ect_offsets": [
+    -15.0,
+    -10.0,
+    -10.0,
+    -20.0
+   ]
+  },
+  {
+   "tag": "F",
+   "video": "GX010054",
+   "step": 10,
+   "dur": 87.1,
+   "time_expr": true,
+   "early_confirm": 468.0,
+   "times": [
+    448.0,
+    468.0,
+    501.5375,
+    535.075
+   ],
+   "clean_offsets": [
+    -7.1,
+    -67.1
+   ],
+   "ect_offsets": [
+    7.9,
+    7.9,
+    7.9,
+    12.9
+   ]
+  },
+  {
+   "tag": "F",
+   "video": "GX010057",
+   "step": 12,
+   "dur": 57.8,
+   "time_expr": false,
+   "early_confirm": 836.0,
+   "times": [
+    816.0,
+    836.0,
+    854.875,
+    873.75
+   ],
+   "clean_offsets": [
+    -37.8,
+    -37.8
+   ],
+   "ect_offsets": [
+    -12.8,
+    -12.8,
+    -12.8,
+    -12.8
+   ]
+  },
+  {
+   "tag": "F",
+   "video": "GX010058",
+   "step": 13,
+   "dur": 44.0,
+   "time_expr": false,
+   "early_confirm": 1255.0,
+   "times": [
+    1250.0,
+    1255.0,
+    1274.4875,
+    1293.975
+   ],
+   "clean_offsets": [
+    -39.0,
+    -9.0
+   ],
+   "ect_offsets": [
+    -9.0,
+    -9.0,
+    -9.0,
+    -9.0
+   ]
+  },
+  {
+   "tag": "F",
+   "video": "GX010073",
+   "step": 15,
+   "dur": 153.0,
+   "time_expr": true,
+   "early_confirm": 790.0,
+   "times": [
+    710.0,
+    790.0,
+    826.5,
+    863.0
+   ],
+   "clean_offsets": [
+    -73.0,
+    -73.0
+   ],
+   "ect_offsets": [
+    2.0,
+    -73.0,
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "tag": "F",
+   "video": "GX010073",
+   "step": 20,
+   "dur": 127.0,
+   "time_expr": true,
+   "early_confirm": 997.0,
+   "times": [
+    992.0,
+    997.0,
+    1058.0,
+    1119.0
+   ],
+   "clean_offsets": [
+    -122.0,
+    -112.0
+   ],
+   "ect_offsets": [
+    -12.0,
+    -12.0,
+    -12.0,
+    -7.0
+   ]
+  },
+  {
+   "tag": "F",
+   "video": "GX010081",
+   "step": 8,
+   "dur": 199.0,
+   "time_expr": true,
+   "early_confirm": 556.0,
+   "times": [
+    551.0,
+    556.0,
+    653.0,
+    750.0
+   ],
+   "clean_offsets": [
+    -164.0,
+    -194.0
+   ],
+   "ect_offsets": [
+    -14.0,
+    -4.0,
+    -4.0,
+    -109.0
+   ]
+  },
+  {
+   "tag": "R",
+   "video": "GX010050",
+   "step": 1,
+   "dur": 108.0,
+   "time_expr": false,
+   "early_confirm": 84.0,
+   "times": [
+    19.0,
+    84.0,
+    105.4875,
+    126.975
+   ],
+   "clean_offsets": [
+    -13.0,
+    -43.0
+   ],
+   "ect_offsets": [
+    -43.0,
+    -43.0,
+    -43.0,
+    -43.0
+   ]
+  }
+ ]
+}

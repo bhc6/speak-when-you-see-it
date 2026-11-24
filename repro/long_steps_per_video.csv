@@ -1,0 +1,551 @@
+benchmark,group,run,video,long_steps,on_time,early,late,never,alarm,other
+mc,ECT,sft_greedy_mc,GX010021,4,2,1,0,0,1,0
+mc,ECT,sft_greedy_mc,GX010023,2,1,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010030,1,1,0,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010032,3,2,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010037,6,1,5,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010040,1,1,0,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010046,1,1,0,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010050,9,4,5,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010053,4,2,1,0,0,1,0
+mc,ECT,sft_greedy_mc,GX010054,2,1,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010057,7,4,2,0,0,1,0
+mc,ECT,sft_greedy_mc,GX010058,3,2,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010059,1,1,0,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010060,2,0,2,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010064,1,1,0,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010065,1,1,0,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010070,3,2,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010072,3,2,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010073,4,3,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010074,9,6,2,0,0,1,0
+mc,ECT,sft_greedy_mc,GX010075,1,1,0,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,ECT,sft_greedy_mc,GX010079,3,2,1,0,0,0,0
+mc,ECT,sft_greedy_mc,GX010081,4,2,1,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010021,4,1,1,0,0,2,0
+mc,ECT,s1_greedy_mc,GX010023,2,1,1,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010030,1,1,0,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010032,3,1,1,1,0,0,0
+mc,ECT,s1_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010037,6,1,5,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010040,1,0,0,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010046,1,1,0,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010047,1,0,0,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010050,9,4,2,1,0,2,0
+mc,ECT,s1_greedy_mc,GX010053,4,1,2,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010054,2,2,0,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010057,7,4,2,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010058,3,2,1,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010059,1,0,1,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010060,2,1,0,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010064,1,1,0,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010065,1,1,0,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010070,3,1,1,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010072,3,1,1,1,0,0,0
+mc,ECT,s1_greedy_mc,GX010073,4,2,2,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010074,9,3,4,0,0,2,0
+mc,ECT,s1_greedy_mc,GX010075,1,1,0,0,0,0,0
+mc,ECT,s1_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010079,3,1,1,0,0,1,0
+mc,ECT,s1_greedy_mc,GX010081,4,3,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010021,4,1,2,0,0,1,0
+mc,ECT,s2_greedy_mc,GX010023,2,1,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010030,1,1,0,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010032,3,1,1,1,0,0,0
+mc,ECT,s2_greedy_mc,GX010033,1,0,0,1,0,0,0
+mc,ECT,s2_greedy_mc,GX010036,3,0,2,1,0,0,0
+mc,ECT,s2_greedy_mc,GX010037,6,2,4,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010040,1,1,0,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010046,1,1,0,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010050,9,2,5,1,0,1,0
+mc,ECT,s2_greedy_mc,GX010053,4,1,0,0,0,3,0
+mc,ECT,s2_greedy_mc,GX010054,2,1,0,0,0,1,0
+mc,ECT,s2_greedy_mc,GX010057,7,3,2,0,0,2,0
+mc,ECT,s2_greedy_mc,GX010058,3,2,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010059,1,0,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010060,2,0,2,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010064,1,0,0,0,0,1,0
+mc,ECT,s2_greedy_mc,GX010065,1,1,0,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010070,3,2,1,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010072,3,0,2,0,0,1,0
+mc,ECT,s2_greedy_mc,GX010073,4,4,0,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010074,9,5,3,0,0,1,0
+mc,ECT,s2_greedy_mc,GX010075,1,1,0,0,0,0,0
+mc,ECT,s2_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,ECT,s2_greedy_mc,GX010079,3,1,1,0,0,1,0
+mc,ECT,s2_greedy_mc,GX010081,4,1,1,0,0,2,0
+mc,ECT,s3_greedy_mc,GX010021,4,1,3,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010023,2,0,1,0,0,1,0
+mc,ECT,s3_greedy_mc,GX010030,1,1,0,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010032,3,1,1,1,0,0,0
+mc,ECT,s3_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010037,6,2,3,1,0,0,0
+mc,ECT,s3_greedy_mc,GX010040,1,0,1,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010046,1,0,1,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010050,9,2,5,1,0,1,0
+mc,ECT,s3_greedy_mc,GX010053,4,1,2,0,0,1,0
+mc,ECT,s3_greedy_mc,GX010054,2,2,0,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010057,7,3,3,0,0,1,0
+mc,ECT,s3_greedy_mc,GX010058,3,2,1,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010059,1,1,0,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010060,2,0,2,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010064,1,1,0,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010065,1,1,0,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010070,3,1,1,0,0,1,0
+mc,ECT,s3_greedy_mc,GX010072,3,0,2,1,0,0,0
+mc,ECT,s3_greedy_mc,GX010073,4,4,0,0,0,0,0
+mc,ECT,s3_greedy_mc,GX010074,9,3,4,1,0,1,0
+mc,ECT,s3_greedy_mc,GX010075,1,0,0,0,0,1,0
+mc,ECT,s3_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,ECT,s3_greedy_mc,GX010079,3,0,2,0,0,1,0
+mc,ECT,s3_greedy_mc,GX010081,4,0,2,0,0,2,0
+mc,+ clean,ABL_noND_greedy_mc,GX010021,4,0,1,0,0,3,0
+mc,+ clean,ABL_noND_greedy_mc,GX010023,2,1,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010030,1,0,0,0,0,1,0
+mc,+ clean,ABL_noND_greedy_mc,GX010032,3,2,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010037,6,0,6,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010040,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010046,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010050,9,4,3,1,0,1,0
+mc,+ clean,ABL_noND_greedy_mc,GX010053,4,1,2,0,0,1,0
+mc,+ clean,ABL_noND_greedy_mc,GX010054,2,1,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010057,7,1,3,0,0,3,0
+mc,+ clean,ABL_noND_greedy_mc,GX010058,3,1,2,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010059,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010060,2,0,2,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010064,1,0,0,0,0,1,0
+mc,+ clean,ABL_noND_greedy_mc,GX010065,1,0,0,0,0,1,0
+mc,+ clean,ABL_noND_greedy_mc,GX010070,3,2,1,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010072,3,1,2,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010073,4,0,3,1,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010074,9,3,3,0,0,3,0
+mc,+ clean,ABL_noND_greedy_mc,GX010075,1,1,0,0,0,0,0
+mc,+ clean,ABL_noND_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,+ clean,ABL_noND_greedy_mc,GX010079,3,1,0,0,0,2,0
+mc,+ clean,ABL_noND_greedy_mc,GX010081,4,0,2,0,0,2,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010021,4,0,2,0,0,2,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010023,2,1,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010030,1,0,0,0,0,1,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010032,3,2,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010037,6,1,4,0,0,1,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010040,1,1,0,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010046,1,1,0,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010050,9,3,4,1,0,1,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010053,4,2,0,0,0,2,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010054,2,1,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010057,7,1,5,0,0,1,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010058,3,2,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010059,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010060,2,0,2,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010064,1,0,0,0,0,1,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010065,1,1,0,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010070,3,1,2,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010072,3,0,3,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010073,4,1,3,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010074,9,3,3,1,0,2,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010075,1,1,0,0,0,0,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010079,3,0,1,0,0,2,0
+mc,+ clean,ABL_noND_s1_greedy_mc,GX010081,4,2,2,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010021,4,0,3,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010023,2,1,1,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010030,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010032,3,1,1,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010037,6,0,6,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010040,1,1,0,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010046,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010050,9,3,5,1,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010053,4,2,1,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010054,2,1,0,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010057,7,2,4,1,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010058,3,2,1,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010059,1,1,0,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010060,2,0,1,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010062,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010064,1,1,0,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010065,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010070,3,1,1,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010072,3,1,2,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010073,4,4,0,0,0,0,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010074,9,4,3,0,0,2,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010075,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010079,3,0,1,0,0,2,0
+mc,+ notdone,ABL_noCL_greedy_mc,GX010081,4,0,1,0,0,3,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010021,4,0,3,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010023,2,0,1,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010030,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010032,3,2,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010037,6,0,6,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010040,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010046,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010050,9,3,5,1,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010053,4,1,1,0,0,2,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010054,2,1,0,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010057,7,3,2,0,0,2,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010058,3,0,3,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010059,1,1,0,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010060,2,1,0,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010063,2,1,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010064,1,0,1,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010065,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010070,3,1,2,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010072,3,0,3,0,0,0,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010073,4,1,1,0,0,2,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010074,9,1,4,0,0,4,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010075,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010079,3,0,1,0,0,2,0
+mc,+ notdone,ABL_noCL_s1_greedy_mc,GX010081,4,2,2,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010021,4,0,3,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010023,2,0,1,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010030,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010032,3,2,1,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010037,6,0,5,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010040,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010046,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010047,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010050,9,0,7,0,0,2,0
+mc,no neg.,ABL_none_greedy_mc,GX010053,4,1,2,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010054,2,0,0,0,0,2,0
+mc,no neg.,ABL_none_greedy_mc,GX010057,7,1,6,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010058,3,0,1,0,0,2,0
+mc,no neg.,ABL_none_greedy_mc,GX010059,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010060,2,0,1,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010062,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010063,2,0,1,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010064,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010065,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010070,3,1,2,0,0,0,0
+mc,no neg.,ABL_none_greedy_mc,GX010072,3,0,2,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010073,4,0,2,1,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010074,9,0,4,0,0,5,0
+mc,no neg.,ABL_none_greedy_mc,GX010075,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_greedy_mc,GX010079,3,0,1,0,0,2,0
+mc,no neg.,ABL_none_greedy_mc,GX010081,4,1,1,0,0,2,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010021,4,0,3,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010023,2,0,1,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010030,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010032,3,2,1,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010033,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010036,3,1,2,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010037,6,0,2,0,0,4,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010040,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010046,1,1,0,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010047,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010050,9,0,7,0,0,2,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010053,4,0,3,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010054,2,0,2,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010057,7,0,4,0,0,3,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010058,3,0,2,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010059,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010060,2,0,1,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010062,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010063,2,0,2,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010064,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010065,1,0,1,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010070,3,1,1,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010072,3,0,3,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010073,4,1,3,0,0,0,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010074,9,0,4,0,0,5,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010075,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010078,1,0,0,0,0,1,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010079,3,0,1,0,0,2,0
+mc,no neg.,ABL_none_s1_greedy_mc,GX010081,4,0,2,0,0,2,0
+qicd,ECT,sft_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,ECT,sft_greedy_test36,10_48,1,0,0,0,0,1,0
+qicd,ECT,sft_greedy_test36,15_46,6,3,3,0,0,0,0
+qicd,ECT,sft_greedy_test36,16_20,12,4,8,0,0,0,0
+qicd,ECT,sft_greedy_test36,16_44,3,2,1,0,0,0,0
+qicd,ECT,sft_greedy_test36,17_43,1,0,0,1,0,0,0
+qicd,ECT,sft_greedy_test36,17_45,2,1,1,0,0,0,0
+qicd,ECT,sft_greedy_test36,17_49,3,2,0,0,0,1,0
+qicd,ECT,sft_greedy_test36,18_49,1,0,1,0,0,0,0
+qicd,ECT,sft_greedy_test36,1_136,1,1,0,0,0,0,0
+qicd,ECT,sft_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,ECT,sft_greedy_test36,22_40,1,0,0,0,0,1,0
+qicd,ECT,sft_greedy_test36,22_41,1,1,0,0,0,0,0
+qicd,ECT,sft_greedy_test36,25_42,2,0,2,0,0,0,0
+qicd,ECT,sft_greedy_test36,27_45,4,0,2,1,0,1,0
+qicd,ECT,sft_greedy_test36,27_49,2,1,1,0,0,0,0
+qicd,ECT,sft_greedy_test36,28_45,4,2,0,0,0,2,0
+qicd,ECT,sft_greedy_test36,28_50,1,0,1,0,0,0,0
+qicd,ECT,sft_greedy_test36,29_129,4,1,0,0,0,3,0
+qicd,ECT,sft_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,ECT,sft_greedy_test36,2_47,3,2,0,0,0,1,0
+qicd,ECT,sft_greedy_test36,3_46,3,1,1,0,0,1,0
+qicd,ECT,sft_greedy_test36,3_49,2,0,0,1,0,1,0
+qicd,ECT,sft_greedy_test36,5_44,2,2,0,0,0,0,0
+qicd,ECT,sft_greedy_test36,7_135,1,0,0,0,0,1,0
+qicd,ECT,sft_greedy_test36,8_50,2,1,0,0,0,1,0
+qicd,ECT,s1_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,ECT,s1_greedy_test36,10_48,1,0,1,0,0,0,0
+qicd,ECT,s1_greedy_test36,15_46,6,1,5,0,0,0,0
+qicd,ECT,s1_greedy_test36,16_20,12,5,7,0,0,0,0
+qicd,ECT,s1_greedy_test36,16_44,3,1,1,0,0,1,0
+qicd,ECT,s1_greedy_test36,17_43,1,0,0,0,0,1,0
+qicd,ECT,s1_greedy_test36,17_45,2,0,0,0,0,2,0
+qicd,ECT,s1_greedy_test36,17_49,3,3,0,0,0,0,0
+qicd,ECT,s1_greedy_test36,18_49,1,0,0,0,0,1,0
+qicd,ECT,s1_greedy_test36,1_136,1,0,1,0,0,0,0
+qicd,ECT,s1_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,ECT,s1_greedy_test36,22_40,1,1,0,0,0,0,0
+qicd,ECT,s1_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,ECT,s1_greedy_test36,25_42,2,0,2,0,0,0,0
+qicd,ECT,s1_greedy_test36,27_45,4,1,2,1,0,0,0
+qicd,ECT,s1_greedy_test36,27_49,2,1,0,1,0,0,0
+qicd,ECT,s1_greedy_test36,28_45,4,2,1,0,0,1,0
+qicd,ECT,s1_greedy_test36,28_50,1,1,0,0,0,0,0
+qicd,ECT,s1_greedy_test36,29_129,4,2,1,0,0,1,0
+qicd,ECT,s1_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,ECT,s1_greedy_test36,2_47,3,1,0,1,0,1,0
+qicd,ECT,s1_greedy_test36,3_46,3,2,1,0,0,0,0
+qicd,ECT,s1_greedy_test36,3_49,2,1,0,1,0,0,0
+qicd,ECT,s1_greedy_test36,5_44,2,0,0,2,0,0,0
+qicd,ECT,s1_greedy_test36,7_135,1,0,0,0,0,1,0
+qicd,ECT,s1_greedy_test36,8_50,2,1,0,0,0,1,0
+qicd,ECT,s2_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,10_48,1,0,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,15_46,6,1,5,0,0,0,0
+qicd,ECT,s2_greedy_test36,16_20,12,5,5,0,0,2,0
+qicd,ECT,s2_greedy_test36,16_44,3,2,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,17_43,1,0,0,1,0,0,0
+qicd,ECT,s2_greedy_test36,17_45,2,1,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,17_49,3,1,1,1,0,0,0
+qicd,ECT,s2_greedy_test36,18_49,1,0,0,0,0,1,0
+qicd,ECT,s2_greedy_test36,1_136,1,0,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,ECT,s2_greedy_test36,22_40,1,1,0,0,0,0,0
+qicd,ECT,s2_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,25_42,2,0,1,1,0,0,0
+qicd,ECT,s2_greedy_test36,27_45,4,1,2,1,0,0,0
+qicd,ECT,s2_greedy_test36,27_49,2,1,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,28_45,4,3,1,0,0,0,0
+qicd,ECT,s2_greedy_test36,28_50,1,1,0,0,0,0,0
+qicd,ECT,s2_greedy_test36,29_129,4,1,0,0,0,3,0
+qicd,ECT,s2_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,ECT,s2_greedy_test36,2_47,3,1,0,0,0,2,0
+qicd,ECT,s2_greedy_test36,3_46,3,1,1,1,0,0,0
+qicd,ECT,s2_greedy_test36,3_49,2,1,0,1,0,0,0
+qicd,ECT,s2_greedy_test36,5_44,2,0,0,2,0,0,0
+qicd,ECT,s2_greedy_test36,7_135,1,0,0,0,0,1,0
+qicd,ECT,s2_greedy_test36,8_50,2,1,0,0,0,1,0
+qicd,ECT,s3_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,ECT,s3_greedy_test36,10_48,1,0,1,0,0,0,0
+qicd,ECT,s3_greedy_test36,15_46,6,2,4,0,0,0,0
+qicd,ECT,s3_greedy_test36,16_20,12,3,6,0,0,3,0
+qicd,ECT,s3_greedy_test36,16_44,3,1,0,0,0,2,0
+qicd,ECT,s3_greedy_test36,17_43,1,0,0,1,0,0,0
+qicd,ECT,s3_greedy_test36,17_45,2,0,0,0,0,2,0
+qicd,ECT,s3_greedy_test36,17_49,3,1,0,2,0,0,0
+qicd,ECT,s3_greedy_test36,18_49,1,0,1,0,0,0,0
+qicd,ECT,s3_greedy_test36,1_136,1,0,0,0,0,1,0
+qicd,ECT,s3_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,ECT,s3_greedy_test36,22_40,1,0,0,1,0,0,0
+qicd,ECT,s3_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,ECT,s3_greedy_test36,25_42,2,1,0,1,0,0,0
+qicd,ECT,s3_greedy_test36,27_45,4,1,2,1,0,0,0
+qicd,ECT,s3_greedy_test36,27_49,2,1,1,0,0,0,0
+qicd,ECT,s3_greedy_test36,28_45,4,4,0,0,0,0,0
+qicd,ECT,s3_greedy_test36,28_50,1,1,0,0,0,0,0
+qicd,ECT,s3_greedy_test36,29_129,4,2,0,0,0,2,0
+qicd,ECT,s3_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,ECT,s3_greedy_test36,2_47,3,2,0,0,0,1,0
+qicd,ECT,s3_greedy_test36,3_46,3,2,1,0,0,0,0
+qicd,ECT,s3_greedy_test36,3_49,2,2,0,0,0,0,0
+qicd,ECT,s3_greedy_test36,5_44,2,1,0,1,0,0,0
+qicd,ECT,s3_greedy_test36,7_135,1,0,1,0,0,0,0
+qicd,ECT,s3_greedy_test36,8_50,2,0,0,1,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,10_48,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,15_46,6,2,2,1,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,16_20,12,5,6,0,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,16_44,3,2,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,17_43,1,1,0,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,17_45,2,1,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,17_49,3,1,2,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,18_49,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,1_136,1,0,0,0,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,22_40,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,25_42,2,0,1,0,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,27_45,4,1,2,1,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,27_49,2,1,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,28_45,4,2,1,0,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,28_50,1,1,0,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,29_129,4,2,0,0,0,2,0
+qicd,+ clean,ABL_noND_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,2_47,3,2,0,0,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,3_46,3,2,0,0,0,1,0
+qicd,+ clean,ABL_noND_greedy_test36,3_49,2,1,0,1,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,5_44,2,1,0,1,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,7_135,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_greedy_test36,8_50,2,1,0,0,0,1,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,10_48,1,0,0,0,0,1,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,15_46,6,1,5,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,16_20,12,4,5,0,0,3,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,16_44,3,1,1,0,0,1,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,17_43,1,1,0,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,17_45,2,1,1,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,17_49,3,2,1,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,18_49,1,0,0,0,0,1,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,1_136,1,1,0,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,22_40,1,0,0,1,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,25_42,2,0,2,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,27_45,4,1,2,1,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,27_49,2,2,0,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,28_45,4,2,1,0,0,1,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,28_50,1,0,1,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,29_129,4,1,0,0,0,3,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,29_49,1,1,0,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,2_47,3,3,0,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,3_46,3,0,2,0,0,1,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,3_49,2,0,1,1,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,5_44,2,0,0,1,0,1,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,7_135,1,1,0,0,0,0,0
+qicd,+ clean,ABL_noND_s1_greedy_test36,8_50,2,1,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,+ notdone,ABL_noCL_greedy_test36,10_48,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,15_46,6,0,2,0,0,4,0
+qicd,+ notdone,ABL_noCL_greedy_test36,16_20,12,4,5,0,0,3,0
+qicd,+ notdone,ABL_noCL_greedy_test36,16_44,3,0,1,0,0,2,0
+qicd,+ notdone,ABL_noCL_greedy_test36,17_43,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,17_45,2,0,0,0,0,2,0
+qicd,+ notdone,ABL_noCL_greedy_test36,17_49,3,0,1,1,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,18_49,1,0,1,0,0,0,0
+qicd,+ notdone,ABL_noCL_greedy_test36,1_136,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,+ notdone,ABL_noCL_greedy_test36,22_40,1,0,0,1,0,0,0
+qicd,+ notdone,ABL_noCL_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,+ notdone,ABL_noCL_greedy_test36,25_42,2,0,1,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,27_45,4,2,2,0,0,0,0
+qicd,+ notdone,ABL_noCL_greedy_test36,27_49,2,0,1,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,28_45,4,2,0,0,0,2,0
+qicd,+ notdone,ABL_noCL_greedy_test36,28_50,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,29_129,4,1,0,0,0,3,0
+qicd,+ notdone,ABL_noCL_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,2_47,3,2,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,3_46,3,1,0,0,0,2,0
+qicd,+ notdone,ABL_noCL_greedy_test36,3_49,2,0,1,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,5_44,2,0,0,0,0,2,0
+qicd,+ notdone,ABL_noCL_greedy_test36,7_135,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_greedy_test36,8_50,2,1,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,10_48,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,15_46,6,1,4,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,16_20,12,3,2,0,0,7,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,16_44,3,1,1,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,17_43,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,17_45,2,0,0,0,0,2,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,17_49,3,2,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,18_49,1,0,1,0,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,1_136,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,22_40,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,25_42,2,1,1,0,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,27_45,4,2,2,0,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,27_49,2,0,1,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,28_45,4,1,1,0,0,2,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,28_50,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,29_129,4,1,0,0,0,3,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,2_47,3,2,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,3_46,3,0,3,0,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,3_49,2,0,1,1,0,0,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,5_44,2,1,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,7_135,1,0,0,0,0,1,0
+qicd,+ notdone,ABL_noCL_s1_greedy_test36,8_50,2,1,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,10_47,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,10_48,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,15_46,6,0,4,0,0,2,0
+qicd,no neg.,ABL_none_greedy_test36,16_20,12,1,2,0,0,9,0
+qicd,no neg.,ABL_none_greedy_test36,16_44,3,0,2,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,17_43,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,17_45,2,0,0,0,0,2,0
+qicd,no neg.,ABL_none_greedy_test36,17_49,3,1,0,0,0,2,0
+qicd,no neg.,ABL_none_greedy_test36,18_49,1,0,1,0,0,0,0
+qicd,no neg.,ABL_none_greedy_test36,1_136,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,20_48,1,0,0,1,0,0,0
+qicd,no neg.,ABL_none_greedy_test36,22_40,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,no neg.,ABL_none_greedy_test36,25_42,2,0,1,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,27_45,4,0,2,0,0,2,0
+qicd,no neg.,ABL_none_greedy_test36,27_49,2,0,1,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,28_45,4,1,1,0,0,2,0
+qicd,no neg.,ABL_none_greedy_test36,28_50,1,0,1,0,0,0,0
+qicd,no neg.,ABL_none_greedy_test36,29_129,4,1,0,0,0,3,0
+qicd,no neg.,ABL_none_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,2_47,3,0,0,0,0,3,0
+qicd,no neg.,ABL_none_greedy_test36,3_46,3,0,1,0,0,2,0
+qicd,no neg.,ABL_none_greedy_test36,3_49,2,1,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,5_44,2,0,1,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,7_135,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_greedy_test36,8_50,2,0,0,0,0,2,0
+qicd,no neg.,ABL_none_s1_greedy_test36,10_47,1,0,1,0,0,0,0
+qicd,no neg.,ABL_none_s1_greedy_test36,10_48,1,0,1,0,0,0,0
+qicd,no neg.,ABL_none_s1_greedy_test36,15_46,6,0,4,0,0,2,0
+qicd,no neg.,ABL_none_s1_greedy_test36,16_20,12,0,2,0,0,10,0
+qicd,no neg.,ABL_none_s1_greedy_test36,16_44,3,0,2,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,17_43,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,17_45,2,0,0,0,0,2,0
+qicd,no neg.,ABL_none_s1_greedy_test36,17_49,3,1,0,0,0,2,0
+qicd,no neg.,ABL_none_s1_greedy_test36,18_49,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,1_136,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,20_48,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,22_40,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,22_41,1,0,1,0,0,0,0
+qicd,no neg.,ABL_none_s1_greedy_test36,25_42,2,0,1,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,27_45,4,2,2,0,0,0,0
+qicd,no neg.,ABL_none_s1_greedy_test36,27_49,2,0,0,1,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,28_45,4,0,1,0,0,3,0
+qicd,no neg.,ABL_none_s1_greedy_test36,28_50,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,29_129,4,1,0,0,0,3,0
+qicd,no neg.,ABL_none_s1_greedy_test36,29_49,1,0,0,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,2_47,3,0,0,0,0,3,0
+qicd,no neg.,ABL_none_s1_greedy_test36,3_46,3,1,1,0,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,3_49,2,0,0,1,0,1,0
+qicd,no neg.,ABL_none_s1_greedy_test36,5_44,2,0,0,0,0,2,0
+qicd,no neg.,ABL_none_s1_greedy_test36,7_135,1,0,1,0,0,0,0
+qicd,no neg.,ABL_none_s1_greedy_test36,8_50,2,0,0,0,0,2,0

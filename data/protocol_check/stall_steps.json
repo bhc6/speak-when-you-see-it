@@ -1,0 +1,127 @@
+{
+ "neurips2025_test": {
+  "steps": 474,
+  "step_kinds": {
+   "mistake-free": 238,
+   "ends with a mistake": 236
+  },
+  "runs": {
+   "Qwen3-VL-2B + memory prompt": {
+    "stopped_recordings": 14,
+    "recordings": 36,
+    "stopped_at": {
+     "mistake-free": 7,
+     "ends with a mistake": 7
+    }
+   },
+   "Qwen3.5-397B": {
+    "stopped_recordings": 24,
+    "recordings": 36,
+    "stopped_at": {
+     "ends with a mistake": 11,
+     "mistake-free": 13
+    }
+   },
+   "Qwen2.5-VL-7B": {
+    "stopped_recordings": 36,
+    "recordings": 36,
+    "stopped_at": {
+     "ends with a mistake": 27,
+     "mistake-free": 9
+    }
+   },
+   "ECT s0": {
+    "stopped_recordings": 0,
+    "recordings": 36,
+    "stopped_at": {}
+   },
+   "ECT s1": {
+    "stopped_recordings": 3,
+    "recordings": 36,
+    "stopped_at": {
+     "mistake-free": 2,
+     "ends with a mistake": 1
+    }
+   },
+   "ECT s2": {
+    "stopped_recordings": 4,
+    "recordings": 36,
+    "stopped_at": {
+     "mistake-free": 2,
+     "ends with a mistake": 2
+    }
+   },
+   "ECT s3": {
+    "stopped_recordings": 1,
+    "recordings": 36,
+    "stopped_at": {
+     "ends with a mistake": 1
+    }
+   }
+  }
+ },
+ "ego_mc_bench_test": {
+  "steps": 562,
+  "step_kinds": {
+   "mistake-free": 264,
+   "mistake then success": 282,
+   "ends with a mistake": 16
+  },
+  "runs": {
+   "Qwen3-VL-2B + memory prompt": {
+    "stopped_recordings": 5,
+    "recordings": 39,
+    "stopped_at": {
+     "mistake-free": 3,
+     "mistake then success": 2
+    }
+   },
+   "Qwen3.5-397B": {
+    "stopped_recordings": 16,
+    "recordings": 39,
+    "stopped_at": {
+     "mistake then success": 6,
+     "mistake-free": 10
+    }
+   },
+   "Qwen2.5-VL-7B": {
+    "stopped_recordings": 38,
+    "recordings": 39,
+    "stopped_at": {
+     "mistake-free": 8,
+     "mistake then success": 29,
+     "ends with a mistake": 1
+    }
+   },
+   "ECT s0": {
+    "stopped_recordings": 2,
+    "recordings": 39,
+    "stopped_at": {
+     "mistake-free": 2
+    }
+   },
+   "ECT s1": {
+    "stopped_recordings": 3,
+    "recordings": 39,
+    "stopped_at": {
+     "mistake-free": 3
+    }
+   },
+   "ECT s2": {
+    "stopped_recordings": 4,
+    "recordings": 39,
+    "stopped_at": {
+     "mistake-free": 3,
+     "mistake then success": 1
+    }
+   },
+   "ECT s3": {
+    "stopped_recordings": 2,
+    "recordings": 39,
+    "stopped_at": {
+     "mistake-free": 2
+    }
+   }
+  }
+ }
+}

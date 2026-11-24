@@ -1,0 +1,62 @@
+{
+ "noCL_s2": {
+  "HIT": 31.1,
+  "voided by false alarm": 40.3,
+  "confirmed too early": 16.0,
+  "confirmed too late": 5.9,
+  "never confirmed": 0.0,
+  "not reached": 2.1,
+  "instruction mismatch": 4.6,
+  "false alarms per clean step": 0.88,
+  "mistake steps flagged %": 65.3,
+  "median early (s)": 33.0329999999999
+ },
+ "noCL_s3": {
+  "HIT": 40.8,
+  "voided by false alarm": 35.7,
+  "confirmed too early": 12.6,
+  "confirmed too late": 5.9,
+  "never confirmed": 0.8,
+  "not reached": 0.4,
+  "instruction mismatch": 3.8,
+  "false alarms per clean step": 1.33,
+  "mistake steps flagged %": 54.2,
+  "median early (s)": 34.87457909955765
+ },
+ "unm_s0": {
+  "HIT": 41.2,
+  "voided by false alarm": 29.4,
+  "confirmed too early": 12.6,
+  "confirmed too late": 11.3,
+  "never confirmed": 0.4,
+  "not reached": 0.4,
+  "instruction mismatch": 4.6,
+  "false alarms per clean step": 0.62,
+  "mistake steps flagged %": 34.3,
+  "median early (s)": 41.64099999999999
+ },
+ "unm_s1": {
+  "HIT": 36.1,
+  "voided by false alarm": 32.8,
+  "confirmed too early": 13.4,
+  "confirmed too late": 10.5,
+  "never confirmed": 0.0,
+  "not reached": 2.9,
+  "instruction mismatch": 4.2,
+  "false alarms per clean step": 0.62,
+  "mistake steps flagged %": 39.0,
+  "median early (s)": 39.83851114325853
+ },
+ "ECT_s0": {
+  "HIT": 41.2,
+  "voided by false alarm": 26.9,
+  "confirmed too early": 14.3,
+  "confirmed too late": 12.2,
+  "never confirmed": 0.8,
+  "not reached": 0.0,
+  "instruction mismatch": 4.6,
+  "false alarms per clean step": 0.63,
+  "mistake steps flagged %": 32.2,
+  "median early (s)": 34.87457909955765
+ }
+}

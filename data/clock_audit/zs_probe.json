@@ -1,0 +1,35 @@
+{
+ "Qwen3-VL-2B zero-shot": {
+  "n": 1233,
+  "mis_yes_no_mistake": 0.795,
+  "mis_yes_mistake": 0.798,
+  "mis_yes_no_mistake_black": 0.146,
+  "mis_yes_no_mistake_pad60": 0.729,
+  "auroc_mistake": 0.566,
+  "n_no_mistake_full_pad": 389,
+  "mis_yes_no_mistake_full_pad_orig": 0.783,
+  "mis_yes_no_mistake_full_pad_pad60": 0.678
+ },
+ "no paired neg. s0": {
+  "n": 1233,
+  "mis_yes_no_mistake": 0.026,
+  "mis_yes_mistake": 0.48,
+  "mis_yes_no_mistake_black": 0.025,
+  "mis_yes_no_mistake_pad60": 0.065,
+  "auroc_mistake": 0.96,
+  "n_no_mistake_full_pad": 389,
+  "mis_yes_no_mistake_full_pad_orig": 0.015,
+  "mis_yes_no_mistake_full_pad_pad60": 0.023
+ },
+ "ECT s0": {
+  "n": 1233,
+  "mis_yes_no_mistake": 0.073,
+  "mis_yes_mistake": 0.276,
+  "mis_yes_no_mistake_black": 0.053,
+  "mis_yes_no_mistake_pad60": 0.112,
+  "auroc_mistake": 0.849,
+  "n_no_mistake_full_pad": 389,
+  "mis_yes_no_mistake_full_pad_orig": 0.057,
+  "mis_yes_no_mistake_full_pad_pad60": 0.113
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "denominator": {
+  "neurips2025": {
+   "videos": 36,
+   "clean_steps": 238,
+   "clean_steps_with_instruction_only": 0,
+   "of_which_last_step_of_video": 0
+  },
+  "ego_mc_bench": {
+   "videos": 39,
+   "clean_steps": 264,
+   "clean_steps_with_instruction_only": 27,
+   "of_which_last_step_of_video": 25
+  }
+ },
+ "runs": {
+  "neurips2025:ECT_s0": {
+   "videos_with_clean_steps": 35,
+   "ic": 41.2,
+   "hits": 98,
+   "clean_steps": 238,
+   "per_video_median": 0.435,
+   "videos_with_zero": 4,
+   "hits_on_instruction_only_steps": 0
+  },
+  "ego_mc_bench:ECT_s0": {
+   "videos_with_clean_steps": 39,
+   "ic": 67.0,
+   "hits": 177,
+   "clean_steps": 264,
+   "per_video_median": 0.667,
+   "videos_with_zero": 1,
+   "hits_on_instruction_only_steps": 12
+  },
+  "neurips2025:ECT_s1": {
+   "videos_with_clean_steps": 35,
+   "ic": 39.9,
+   "hits": 95,
+   "clean_steps": 238,
+   "per_video_median": 0.4,
+   "videos_with_zero": 6,
+   "hits_on_instruction_only_steps": 0
+  },
+  "ego_mc_bench:ECT_s1": {
+   "videos_with_clean_steps": 39,
+   "ic": 54.2,
+   "hits": 143,
+   "clean_steps": 264,
+   "per_video_median": 0.5,
+   "videos_with_zero": 0,
+   "hits_on_instruction_only_steps": 10
+  },
+  "neurips2025:ECT_s2": {
+   "videos_with_clean_steps": 35,
+   "ic": 39.5,
+   "hits": 94,
+   "clean_steps": 238,
+   "per_video_median": 0.333,
+   "videos_with_zero": 4,
+   "hits_on_instruction_only_steps": 0
+  },
+  "ego_mc_bench:ECT_s2": {
+   "videos_with_clean_steps": 39,
+   "ic": 59.1,
+   "hits": 156,
+   "clean_steps": 264,
+   "per_video_median": 0.538,
+   "videos_with_zero": 1,
+   "hits_on_instruction_only_steps": 10
+  },
+  "neurips2025:ECT_s3": {
+   "videos_with_clean_steps": 35,
+   "ic": 42.4,
+   "hits": 101,
+   "clean_steps": 238,
+   "per_video_median": 0.375,
+   "videos_with_zero": 3,
+   "hits_on_instruction_only_steps": 0
+  },
+  "ego_mc_bench:ECT_s3": {
+   "videos_with_clean_steps": 39,
+   "ic": 55.7,
+   "hits": 147,
+   "clean_steps": 264,
+   "per_video_median": 0.5,
+   "videos_with_zero": 2,
+   "hits_on_instruction_only_steps": 11
+  },
+  "neurips2025:R1": {
+   "videos_with_clean_steps": 35,
+   "ic": 10.5,
+   "hits": 25,
+   "clean_steps": 238,
+   "per_video_median": 0.0,
+   "videos_with_zero": 21,
+   "hits_on_instruction_only_steps": 0
+  },
+  "ego_mc_bench:R1": {
+   "videos_with_clean_steps": 39,
+   "ic": 14.4,
+   "hits": 38,
+   "clean_steps": 264,
+   "per_video_median": 0.125,
+   "videos_with_zero": 17,
+   "hits_on_instruction_only_steps": 12
+  }
+ }
+}

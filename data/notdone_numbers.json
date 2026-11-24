@@ -1,0 +1,374 @@
+{
+ "long_decomp": {
+  "mc": {
+   "cut": 38.200000000000045,
+   "n": 84,
+   "levels": {
+    "ECT": {
+     "on time": 42.3,
+     "early": 40.5,
+     "late": 3.6,
+     "never": 0.0,
+     "alarm": 13.7,
+     "other": 0.0
+    },
+    "+ clean": {
+     "on time": 28.0,
+     "early": 50.0,
+     "late": 2.4,
+     "never": 0.0,
+     "alarm": 19.6,
+     "other": 0.0
+    },
+    "+ notdone": {
+     "on time": 27.4,
+     "early": 48.2,
+     "late": 1.8,
+     "never": 0.0,
+     "alarm": 22.6,
+     "other": 0.0
+    },
+    "no neg.": {
+     "on time": 7.7,
+     "early": 57.1,
+     "late": 0.6,
+     "never": 0.0,
+     "alarm": 34.5,
+     "other": 0.0
+    }
+   },
+   "diff": {
+    "on time": [
+     14.3,
+     [
+      5.8,
+      24.4
+     ]
+    ],
+    "early": [
+     -9.5,
+     [
+      -18.4,
+      -1.9
+     ]
+    ],
+    "alarm": [
+     -6.0,
+     [
+      -12.5,
+      0.3
+     ]
+    ],
+    "late": [
+     1.2,
+     [
+      -1.3,
+      4.6
+     ]
+    ]
+   }
+  },
+  "qicd": {
+   "cut": 51.801556756756554,
+   "n": 65,
+   "levels": {
+    "ECT": {
+     "on time": 35.8,
+     "early": 33.8,
+     "late": 11.2,
+     "never": 0.0,
+     "alarm": 19.2,
+     "other": 0.0
+    },
+    "+ clean": {
+     "on time": 37.7,
+     "early": 36.2,
+     "late": 7.7,
+     "never": 0.0,
+     "alarm": 18.5,
+     "other": 0.0
+    },
+    "+ notdone": {
+     "on time": 22.3,
+     "early": 27.7,
+     "late": 3.8,
+     "never": 0.0,
+     "alarm": 46.2,
+     "other": 0.0
+    },
+    "no neg.": {
+     "on time": 7.7,
+     "early": 26.9,
+     "late": 2.3,
+     "never": 0.0,
+     "alarm": 63.1,
+     "other": 0.0
+    }
+   },
+   "diff": {
+    "on time": [
+     -1.9,
+     [
+      -9.5,
+      4.5
+     ]
+    ],
+    "early": [
+     -2.3,
+     [
+      -10.7,
+      3.4
+     ]
+    ],
+    "alarm": [
+     0.8,
+     [
+      -5.1,
+      9.0
+     ]
+    ],
+    "late": [
+     3.5,
+     [
+      -0.4,
+      8.8
+     ]
+    ]
+   }
+  }
+ },
+ "selfcheck": {
+  "mc": {
+   "common_confirmed": {
+    "n": 107,
+    "ECT": 0.735,
+    "+ clean": 0.606,
+    "+ notdone": 0.831,
+    "no neg.": 0.577,
+    "ect_minus_clean": 0.129,
+    "ci": [
+     -0.05,
+     0.373
+    ]
+   },
+   "n_time_broad": 28,
+   "n_time_strict": 22,
+   "long_no_time_strict": {
+    "n": 66,
+    "ect": 41.3,
+    "clean": 28.8,
+    "diff": 12.5,
+    "ci": [
+     3.774,
+     21.61
+    ]
+   },
+   "time_expr_early_strict": {
+    "n": 22,
+    "ect": 37.5,
+    "clean": 59.1,
+    "diff": -21.6,
+    "ci": [
+     -37.5,
+     -6.667
+    ]
+   },
+   "long_no_time_broad": {
+    "n": 64,
+    "ect": 40.2,
+    "clean": 27.3,
+    "diff": 12.9,
+    "ci": [
+     3.906,
+     21.97
+    ]
+   },
+   "time_expr_early_broad": {
+    "n": 28,
+    "ect": 30.4,
+    "clean": 50.0,
+    "diff": -19.6,
+    "ci": [
+     -33.871,
+     -7.812
+    ]
+   },
+   "long_abs": {
+    "cut_s": 38.2,
+    "n": 84,
+    "per_seed": {
+     "ECT": [
+      53.6,
+      42.9,
+      39.3,
+      33.3
+     ],
+     "+ clean": [
+      25.0,
+      31.0
+     ],
+     "+ notdone": [
+      32.1,
+      22.6
+     ],
+     "no neg.": [
+      8.3,
+      7.1
+     ]
+    },
+    "diff": 14.3,
+    "ci": [
+     5.114,
+     23.986
+    ]
+   }
+  },
+  "qicd": {
+   "common_confirmed": {
+    "n": 32,
+    "ECT": 0.846,
+    "+ clean": 0.941,
+    "+ notdone": 0.906,
+    "no neg.": 0.896,
+    "ect_minus_clean": -0.094,
+    "ci": [
+     -0.115,
+     0.007
+    ]
+   },
+   "n_time_broad": 19,
+   "n_time_strict": 14,
+   "long_no_time_strict": {
+    "n": 59,
+    "ect": 37.3,
+    "clean": 39.0,
+    "diff": -1.7,
+    "ci": [
+     -9.906,
+     5.189
+    ]
+   },
+   "time_expr_early_strict": {
+    "n": 14,
+    "ect": 23.2,
+    "clean": 28.6,
+    "diff": -5.4,
+    "ci": [
+     -20.833,
+     6.25
+    ]
+   },
+   "long_no_time_broad": {
+    "n": 58,
+    "ect": 37.9,
+    "clean": 37.9,
+    "diff": 0.0,
+    "ci": [
+     -7.386,
+     6.333
+    ]
+   },
+   "time_expr_early_broad": {
+    "n": 19,
+    "ect": 17.1,
+    "clean": 21.1,
+    "diff": -3.9,
+    "ci": [
+     -15.909,
+     4.286
+    ]
+   },
+   "long_abs": {
+    "cut_s": 51.8,
+    "n": 65,
+    "per_seed": {
+     "ECT": [
+      36.9,
+      35.4,
+      33.8,
+      36.9
+     ],
+     "+ clean": [
+      40.0,
+      35.4
+     ],
+     "+ notdone": [
+      20.0,
+      24.6
+     ],
+     "no neg.": [
+      7.7,
+      7.7
+     ]
+    },
+    "diff": -1.9,
+    "ci": [
+     -9.559,
+     4.71
+    ]
+   }
+  }
+ },
+ "first_check": {
+  "mc": {
+   "n": 139,
+   "per_seed": {
+    "ECT": [
+     5.8,
+     4.3,
+     6.5,
+     7.2
+    ],
+    "+ clean": [
+     12.2,
+     9.4
+    ],
+    "+ notdone": [
+     9.4,
+     15.1
+    ],
+    "no neg.": [
+     17.3,
+     24.5
+    ]
+   },
+   "ect_minus_clean": [
+    -4.9,
+    [
+     -7.1,
+     -2.8
+    ]
+   ]
+  },
+  "qicd": {
+   "n": 146,
+   "per_seed": {
+    "ECT": [
+     3.4,
+     4.1,
+     1.4,
+     2.1
+    ],
+    "+ clean": [
+     4.1,
+     5.5
+    ],
+    "+ notdone": [
+     6.2,
+     4.8
+    ],
+    "no neg.": [
+     6.8,
+     13.0
+    ]
+   },
+   "ect_minus_clean": [
+    -2.1,
+    [
+     -4.9,
+     0.3
+    ]
+   ]
+  }
+ }
+}

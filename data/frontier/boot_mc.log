@@ -1,0 +1,11 @@
+s0: IC 67.0 F1 0.208 | margin vs all-blind +0.208 (rules only +0.208, learned only +0.208) | boot 95% [+0.153,+0.268] P(beyond)=1.000
+s1: IC 54.2 F1 0.228 | margin vs all-blind +0.212 (rules only +0.212, learned only +0.228) | boot 95% [+0.136,+0.257] P(beyond)=1.000
+s2: IC 59.1 F1 0.278 | margin vs all-blind +0.278 (rules only +0.278, learned only +0.278) | boot 95% [+0.214,+0.329] P(beyond)=1.000
+s0_thr: IC 55.3 F1 0.203 | margin vs all-blind +0.196 (rules only +0.196, learned only +0.203) | boot 95% [+0.137,+0.240] P(beyond)=1.000
+R1: IC 14.4 F1 0.215 | margin vs all-blind -0.122 (rules only -0.122, learned only +0.041) | boot 95% [-0.189,-0.040] P(beyond)=0.000
+ABL_none: IC 47.7 F1 0.341 | margin vs all-blind +0.273 (rules only +0.273, learned only +0.341) | boot 95% [+0.213,+0.320] P(beyond)=1.000
+ABL_noCL: IC 56.8 F1 0.253 | margin vs all-blind +0.253 (rules only +0.253, learned only +0.253) | boot 95% [+0.186,+0.295] P(beyond)=1.000
+ABL_noND: IC 54.5 F1 0.222 | margin vs all-blind +0.210 (rules only +0.210, learned only +0.222) | boot 95% [+0.146,+0.261] P(beyond)=1.000
+T1v2: IC 47.7 F1 0.318 | margin vs all-blind +0.251 (rules only +0.251, learned only +0.318) | boot 95% [+0.185,+0.301] P(beyond)=1.000
+4B: IC 61.7 F1 0.175 | margin vs all-blind +0.175 (rules only +0.175, learned only +0.175) | boot 95% [+0.121,+0.232] P(beyond)=1.000
+s3: IC 55.7 F1 0.271 | margin vs all-blind +0.268 (rules only +0.268, learned only +0.271) | boot 95% [+0.200,+0.308] P(beyond)=1.000   # added 2026-11-17 (same script; s0 re-run in the same call reproduced [+0.153,+0.268] 1.000)

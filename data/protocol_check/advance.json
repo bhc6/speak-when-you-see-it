@@ -1,0 +1,30 @@
+{
+ "zero-shot": {
+  "recordings": 36,
+  "rule_holds": 36,
+  "stopped_early": 14,
+  "steps_reached": 385,
+  "steps": 474
+ },
+ "no paired neg.": {
+  "recordings": 36,
+  "rule_holds": 36,
+  "stopped_early": 3,
+  "steps_reached": 463,
+  "steps": 474
+ },
+ "+ clean": {
+  "recordings": 36,
+  "rule_holds": 36,
+  "stopped_early": 0,
+  "steps_reached": 474,
+  "steps": 474
+ },
+ "ECT": {
+  "recordings": 36,
+  "rule_holds": 36,
+  "stopped_early": 0,
+  "steps_reached": 474,
+  "steps": 474
+ }
+}

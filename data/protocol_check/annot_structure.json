@@ -1,0 +1,106 @@
+{
+ "QICD Advanced Planning test": {
+  "videos": 36,
+  "steps": 474,
+  "event_types": {
+   "instruction": 474,
+   "feedback_action_aligned_success": 123,
+   "feedback_action_unaligned_mistake_preparation_error": 32,
+   "feedback_action_aligned_mistake_technique_error": 48,
+   "feedback_action_unaligned_mistake_technique_error": 37,
+   "feedback_action_unaligned_success": 115,
+   "feedback_action_aligned_mistake_preparation_error": 36,
+   "feedback_finish_all": 29,
+   "feedback_action_unaligned_mistake_measurement_error": 29,
+   "feedback_action_aligned_mistake_measurement_error": 45,
+   "feedback_action_unaligned_mistake_temperature_error": 9,
+   "feedback_action_unaligned_mistake_timing_error": 12,
+   "feedback_action_aligned_mistake_timing_error": 14,
+   "feedback_action_aligned_mistake_temperature_error": 1
+  },
+  "sequences": {
+   "S": 238,
+   "Ma": 119,
+   "Mu": 92,
+   "Mu > Mu": 12,
+   "Ma > Ma": 11,
+   "Mu > Mu > Mu": 1,
+   "Ma > Ma > Ma": 1
+  },
+  "steps_with_mistakes": 236,
+  "mistake_steps_with_a_success": 0,
+  "after_a_mistake_step": {
+   "Mu -> next instruction": 40,
+   "Ma -> next instruction": 131,
+   "Mu -> same instruction again": 65
+  },
+  "example": {
+   "video": "10_48",
+   "step": 8,
+   "first": [
+    "unaligned"
+   ],
+   "again": [
+    "success"
+   ]
+  }
+ },
+ "QICD Main test": {
+  "videos": 109,
+  "steps": 1489,
+  "event_types": {
+   "instruction": 1489,
+   "feedback_action_aligned_success": 1097,
+   "feedback_finish_all": 109,
+   "feedback_action_aligned_mistake_preparation_error": 110,
+   "feedback_action_aligned_mistake_technique_error": 156,
+   "feedback_action_aligned_mistake_measurement_error": 113,
+   "feedback_action_aligned_mistake_timing_error": 49,
+   "feedback_action_aligned_mistake_temperature_error": 17
+  },
+  "sequences": {
+   "S": 1097,
+   "Ma": 349,
+   "Ma > Ma": 38,
+   "Ma > Ma > Ma": 3,
+   "Ma > Ma > Ma > Ma > Ma": 1,
+   "Ma > Ma > Ma > Ma > Ma > Ma": 1
+  },
+  "steps_with_mistakes": 392,
+  "mistake_steps_with_a_success": 0,
+  "after_a_mistake_step": {
+   "Ma -> next instruction": 391,
+   "Ma -> same instruction again": 1
+  },
+  "example": null
+ },
+ "Ego-MC-Bench test": {
+  "videos": 39,
+  "steps": 562,
+  "event_types": {
+   "instruction": 562,
+   "success": 521,
+   "mistake": 397,
+   "finish_all": 39
+  },
+  "sequences": {
+   "S": 236,
+   "M? > S": 210,
+   "M? > M? > S": 53,
+   "(none)": 27,
+   "M?": 14,
+   "M? > M? > M? > S": 12,
+   "M? > M? > M? > M? > S": 5,
+   "M? > M?": 2,
+   "S > S": 1,
+   "M? > S > M? > S": 1,
+   "M? > M? > M? > M? > M? > S": 1
+  },
+  "steps_with_mistakes": 298,
+  "mistake_steps_with_a_success": 282,
+  "after_a_mistake_step": {
+   "M? -> next instruction": 16
+  },
+  "example": null
+ }
+}

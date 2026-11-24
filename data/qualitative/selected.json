@@ -1,0 +1,195 @@
+{
+ "rule": "Qualitative examples for supplement G (success and failure cases), chosen by a fixed rule before any frame is looked at.\nRun: ECT seed 0, official greedy decoding, QICD test36 (results/final/sft_greedy_test36, 41.2 / 0.217).\nPer-step outcome by the official eval.py logic (same segmentation, instruction check and 15-s window):\n  A on-time confirmation : mistake-free step, exactly one Success, within 15 s of the step end\n  B timely alarm         : mistake step, a Feedback within 15 s of an annotated mistake (TP)\n  C false alarm          : mistake-free step with a Feedback\n  D missed mistake       : mistake step without any Feedback\n  E mistimed confirmation: mistake-free step, no Feedback, Success missing or >= 15 s from the step end\nRule: in each class sort the candidates by annotated step duration (ties by video id, step) and take the lower median.\nReported alongside on the same step: zero-shot Qwen3-VL-2B (memory prompt, results/test_vl_mem.json) and the same recipe\nwithout paired negatives (ABL_none seed 0); cls None = the official parser does not align that step (instruction check fails).\nDecision time t (the frames are the model window at t): A/E the Success (E without Success: the first check after the\nstep end + 15 s), B/C the Feedback, D the first official check at or after the annotated mistake.\npython select_examples.py OUT_JSON",
+ "counts": {
+  "A": 98,
+  "B": 59,
+  "C": 64,
+  "D": 147,
+  "E": 63
+ },
+ "selected": {
+  "A": {
+   "video": "25_42",
+   "step": 17,
+   "dur": 33.87778693228529,
+   "has_mistake": false,
+   "ok": true,
+   "feedback": [],
+   "success": [
+    1180.5
+   ],
+   "cls": "A",
+   "n_candidates": 98,
+   "decision_t": 1180.5,
+   "zeroshot": {
+    "cls": null,
+    "feedback": [],
+    "success": []
+   },
+   "no_neg": {
+    "cls": "E",
+    "feedback": [],
+    "success": [
+     1160.5
+    ]
+   },
+   "n_gt_mistakes": 0
+  },
+  "B": {
+   "video": "27_49",
+   "step": 1,
+   "dur": 32.96004288747346,
+   "has_mistake": true,
+   "ok": true,
+   "feedback": [
+    {
+     "t": 57.0
+    },
+    {
+     "t": 62.0
+    },
+    {
+     "t": 67.0
+    }
+   ],
+   "success": [
+    72.0
+   ],
+   "cls": "B",
+   "hit": {
+    "t": 57.0
+   },
+   "n_candidates": 59,
+   "decision_t": 57.0,
+   "zeroshot": {
+    "cls": null,
+    "feedback": [],
+    "success": []
+   },
+   "no_neg": {
+    "cls": "B",
+    "feedback": [
+     {
+      "t": 62.0
+     },
+     {
+      "t": 72.0
+     },
+     {
+      "t": 82.0
+     },
+     {
+      "t": 87.0
+     },
+     {
+      "t": 92.0
+     },
+     {
+      "t": 102.0
+     },
+     {
+      "t": 107.0
+     }
+    ],
+    "success": [
+     112.0
+    ]
+   },
+   "n_gt_mistakes": 1
+  },
+  "C": {
+   "video": "16_20",
+   "step": 10,
+   "dur": 34.525948404635756,
+   "has_mistake": false,
+   "ok": true,
+   "feedback": [
+    {
+     "t": 1047.5
+    }
+   ],
+   "success": [
+    1062.5
+   ],
+   "cls": "C",
+   "n_candidates": 64,
+   "decision_t": 1047.5,
+   "zeroshot": {
+    "cls": "E",
+    "feedback": [],
+    "success": [
+     1057.5
+    ]
+   },
+   "no_neg": {
+    "cls": "C",
+    "feedback": [
+     {
+      "t": 1032.5
+     },
+     {
+      "t": 1042.5
+     }
+    ],
+    "success": [
+     1047.5
+    ]
+   },
+   "n_gt_mistakes": 0
+  },
+  "D": {
+   "video": "26_46",
+   "step": 16,
+   "dur": 38.77344202965082,
+   "has_mistake": true,
+   "ok": true,
+   "feedback": [],
+   "success": [
+    770.0
+   ],
+   "cls": "D",
+   "n_candidates": 147,
+   "decision_t": 765.0,
+   "zeroshot": {
+    "cls": null,
+    "feedback": [],
+    "success": []
+   },
+   "no_neg": {
+    "cls": "D",
+    "feedback": [],
+    "success": [
+     730.0
+    ]
+   },
+   "n_gt_mistakes": 1
+  },
+  "E": {
+   "video": "27_49",
+   "step": 2,
+   "dur": 43.27141289808918,
+   "has_mistake": false,
+   "ok": true,
+   "feedback": [],
+   "success": [
+    232.5
+   ],
+   "cls": "E",
+   "n_candidates": 63,
+   "decision_t": 232.5,
+   "zeroshot": {
+    "cls": null,
+    "feedback": [],
+    "success": []
+   },
+   "no_neg": {
+    "cls": "A",
+    "feedback": [],
+    "success": [
+     107.5
+    ]
+   },
+   "n_gt_mistakes": 0
+  }
+ }
+}

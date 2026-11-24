@@ -1,0 +1,17 @@
+{
+ "n_train_videos": 209,
+ "completion": {
+  "pairs": 417,
+  "same_instruction": 35,
+  "elapsed_only": 0.5,
+  "elapsed_over_prior": 0.651,
+  "ect_s0": 0.903
+ },
+ "mistake": {
+  "pairs": 514,
+  "same_instruction": 56,
+  "elapsed_only": 0.5,
+  "elapsed_over_prior": 0.539,
+  "ect_s0": 0.766
+ }
+}

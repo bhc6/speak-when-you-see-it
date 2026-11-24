@@ -1,0 +1,427 @@
+{
+ "ABL_noCL": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.896,
+  "done_ci": [
+   0.845,
+   0.946
+  ],
+  "done_both": 0.633,
+  "mis_n": 514,
+  "mis_pairacc": 0.659,
+  "mis_ci": [
+   0.593,
+   0.732
+  ],
+  "mis_both": 0.282
+ },
+ "ABL_noCL_s1": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.9,
+  "done_ci": [
+   0.85,
+   0.948
+  ],
+  "done_both": 0.633,
+  "mis_n": 514,
+  "mis_pairacc": 0.774,
+  "mis_ci": [
+   0.72,
+   0.825
+  ],
+  "mis_both": 0.327
+ },
+ "ABL_noCL_s2": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.894,
+  "done_ci": [
+   0.843,
+   0.942
+  ],
+  "done_both": 0.667,
+  "mis_n": 514,
+  "mis_pairacc": 0.784,
+  "mis_ci": [
+   0.726,
+   0.838
+  ],
+  "mis_both": 0.323
+ },
+ "ABL_noCL_s3": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.896,
+  "done_ci": [
+   0.846,
+   0.942
+  ],
+  "done_both": 0.626,
+  "mis_n": 514,
+  "mis_pairacc": 0.681,
+  "mis_ci": [
+   0.629,
+   0.738
+  ],
+  "mis_both": 0.274
+ },
+ "ABL_noND": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.899,
+  "done_ci": [
+   0.863,
+   0.935
+  ],
+  "done_both": 0.638,
+  "mis_n": 514,
+  "mis_pairacc": 0.727,
+  "mis_ci": [
+   0.648,
+   0.805
+  ],
+  "mis_both": 0.265
+ },
+ "ABL_noND_s1": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.872,
+  "done_ci": [
+   0.821,
+   0.919
+  ],
+  "done_both": 0.6,
+  "mis_n": 514,
+  "mis_pairacc": 0.76,
+  "mis_ci": [
+   0.68,
+   0.83
+  ],
+  "mis_both": 0.206
+ },
+ "ABL_none": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.888,
+  "done_ci": [
+   0.845,
+   0.928
+  ],
+  "done_both": 0.602,
+  "mis_n": 514,
+  "mis_pairacc": 0.628,
+  "mis_ci": [
+   0.568,
+   0.693
+  ],
+  "mis_both": 0.304
+ },
+ "ABL_none_s1": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.903,
+  "done_ci": [
+   0.859,
+   0.942
+  ],
+  "done_both": 0.635,
+  "mis_n": 514,
+  "mis_pairacc": 0.665,
+  "mis_ci": [
+   0.6,
+   0.736
+  ],
+  "mis_both": 0.267
+ },
+ "B1_clean075": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.902,
+  "done_ci": [
+   0.849,
+   0.949
+  ],
+  "done_both": 0.588,
+  "mis_n": 514,
+  "mis_pairacc": 0.732,
+  "mis_ci": [
+   0.649,
+   0.81
+  ],
+  "mis_both": 0.193
+ },
+ "B2_clean300": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.909,
+  "done_ci": [
+   0.87,
+   0.944
+  ],
+  "done_both": 0.628,
+  "mis_n": 514,
+  "mis_pairacc": 0.77,
+  "mis_ci": [
+   0.691,
+   0.844
+  ],
+  "mis_both": 0.144
+ },
+ "C2_ivl2b": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.897,
+  "done_ci": [
+   0.852,
+   0.941
+  ],
+  "done_both": 0.633,
+  "mis_n": 514,
+  "mis_pairacc": 0.718,
+  "mis_ci": [
+   0.642,
+   0.792
+  ],
+  "mis_both": 0.195
+ },
+ "C3_ivl2b_none": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.899,
+  "done_ci": [
+   0.854,
+   0.944
+  ],
+  "done_both": 0.667,
+  "mis_n": 514,
+  "mis_pairacc": 0.668,
+  "mis_ci": [
+   0.602,
+   0.737
+  ],
+  "mis_both": 0.22
+ },
+ "C6_llava7b": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.894,
+  "done_ci": [
+   0.848,
+   0.936
+  ],
+  "done_both": 0.583,
+  "mis_n": 514,
+  "mis_pairacc": 0.751,
+  "mis_ci": [
+   0.673,
+   0.821
+  ],
+  "mis_both": 0.086
+ },
+ "D25": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.881,
+  "done_ci": [
+   0.818,
+   0.943
+  ],
+  "done_both": 0.561,
+  "mis_n": 514,
+  "mis_pairacc": 0.706,
+  "mis_ci": [
+   0.625,
+   0.781
+  ],
+  "mis_both": 0.128
+ },
+ "D50": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.866,
+  "done_ci": [
+   0.804,
+   0.92
+  ],
+  "done_both": 0.511,
+  "mis_n": 514,
+  "mis_pairacc": 0.732,
+  "mis_ci": [
+   0.662,
+   0.797
+  ],
+  "mis_both": 0.249
+ },
+ "ECT_blind_s0": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.639,
+  "done_ci": [
+   0.569,
+   0.707
+  ],
+  "done_both": 0.273,
+  "mis_n": 514,
+  "mis_pairacc": 0.557,
+  "mis_ci": [
+   0.471,
+   0.646
+  ],
+  "mis_both": 0.01
+ },
+ "ECT_blind_s1": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.618,
+  "done_ci": [
+   0.521,
+   0.703
+  ],
+  "done_both": 0.297,
+  "mis_n": 514,
+  "mis_pairacc": 0.54,
+  "mis_ci": [
+   0.432,
+   0.648
+  ],
+  "mis_both": 0.0
+ },
+ "ECT_unm_s0": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.897,
+  "done_ci": [
+   0.849,
+   0.94
+  ],
+  "done_both": 0.624,
+  "mis_n": 514,
+  "mis_pairacc": 0.78,
+  "mis_ci": [
+   0.717,
+   0.838
+  ],
+  "mis_both": 0.204
+ },
+ "ECT_unm_s1": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.91,
+  "done_ci": [
+   0.855,
+   0.956
+  ],
+  "done_both": 0.635,
+  "mis_n": 514,
+  "mis_pairacc": 0.7,
+  "mis_ci": [
+   0.617,
+   0.776
+  ],
+  "mis_both": 0.218
+ },
+ "R0_zs": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.657,
+  "done_ci": [
+   0.595,
+   0.72
+  ],
+  "done_both": 0.412,
+  "mis_n": 514,
+  "mis_pairacc": 0.592,
+  "mis_ci": [
+   0.494,
+   0.683
+  ],
+  "mis_both": 0.119
+ },
+ "T1v2": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.871,
+  "done_ci": [
+   0.826,
+   0.915
+  ],
+  "done_both": 0.578,
+  "mis_n": 514,
+  "mis_pairacc": 0.671,
+  "mis_ci": [
+   0.612,
+   0.731
+  ],
+  "mis_both": 0.294
+ },
+ "T1v4_s0": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.903,
+  "done_ci": [
+   0.856,
+   0.95
+  ],
+  "done_both": 0.607,
+  "mis_n": 514,
+  "mis_pairacc": 0.766,
+  "mis_ci": [
+   0.692,
+   0.833
+  ],
+  "mis_both": 0.173
+ },
+ "T1v4_s1": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.904,
+  "done_ci": [
+   0.844,
+   0.953
+  ],
+  "done_both": 0.64,
+  "mis_n": 514,
+  "mis_pairacc": 0.745,
+  "mis_ci": [
+   0.667,
+   0.816
+  ],
+  "mis_both": 0.249
+ },
+ "T1v4_s2": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.904,
+  "done_ci": [
+   0.861,
+   0.946
+  ],
+  "done_both": 0.631,
+  "mis_n": 514,
+  "mis_pairacc": 0.757,
+  "mis_ci": [
+   0.683,
+   0.824
+  ],
+  "mis_both": 0.175
+ },
+ "T1v4_s3": {
+  "n": 931,
+  "done_n": 417,
+  "done_pairacc": 0.917,
+  "done_ci": [
+   0.874,
+   0.953
+  ],
+  "done_both": 0.564,
+  "mis_n": 514,
+  "mis_pairacc": 0.769,
+  "mis_ci": [
+   0.696,
+   0.838
+  ],
+  "mis_both": 0.161
+ }
+}

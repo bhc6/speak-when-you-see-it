@@ -1,0 +1,21 @@
+== neurips2025 test
+IC>= 0: best blind F1 0.316 (A=30,B=25,r=None, IC 0.0, P 0.249, R 0.43)
+IC>=20: best blind F1 0.251 (A=30,B=25,r=0.3, IC 24.8, P 0.304, R 0.213)
+IC>=30: best blind F1 0.190 (A=30,B=25,r=0.4, IC 33.2, P 0.33, R 0.133)
+IC>=40: best blind F1 0.093 (A=20,B=15,r=0.6, IC 40.3, P 0.368, R 0.053)
+IC>=42: best blind F1 0.000 (A=20,B=None,r=None, IC 43.3, P 0.0, R 0.0)
+max blind IC 43.3 (A=20,B=None) F1 0.0
+== ego_mc_bench test
+IC>= 0: best blind F1 0.373 (A=30,B=25,r=None, IC 0.0, P 0.319, R 0.451)
+IC>=20: best blind F1 0.000 (A=10,B=None,r=None, IC 56.1, P 0.0, R 0.0)
+IC>=30: best blind F1 0.000 (A=10,B=None,r=None, IC 56.1, P 0.0, R 0.0)
+IC>=40: best blind F1 0.000 (A=10,B=None,r=None, IC 56.1, P 0.0, R 0.0)
+IC>=42: best blind F1 0.000 (A=10,B=None,r=None, IC 56.1, P 0.0, R 0.0)
+IC>=45: best blind F1 0.000 (A=10,B=None,r=None, IC 56.1, P 0.0, R 0.0)
+IC>=50: best blind F1 0.000 (A=10,B=None,r=None, IC 56.1, P 0.0, R 0.0)
+max blind IC 56.1 (A=10,B=None) F1 0.0
+== neurips2025 validation
+IC>= 0: best blind F1 0.168 (A=20,B=15,r=None, IC 0.0, P 0.108, R 0.378)
+IC>=20: best blind F1 0.159 (A=20,B=15,r=0.2, IC 22.4, P 0.125, R 0.217)
+IC>=30: best blind F1 0.100 (A=20,B=15,r=0.4, IC 32.8, P 0.125, R 0.083)
+max blind IC 36.9 (A=20,B=None) F1 0.0

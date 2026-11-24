@@ -1,0 +1,358 @@
+{
+ "qicd": {
+  "Qwen3-VL-2B zero-shot": {
+   "recordings": 36,
+   "stopped_early": 14,
+   "steps_reached": 385,
+   "steps": 474,
+   "ic_official": 4.2,
+   "ic_reached_only": 5.4,
+   "mistake_free_not_reached": 53,
+   "mistake_free": 238,
+   "f1": 0.074
+  },
+  "Qwen3-VL-2B + memory prompt": {
+   "recordings": 36,
+   "stopped_early": 14,
+   "steps_reached": 385,
+   "steps": 474,
+   "ic_official": 10.5,
+   "ic_reached_only": 13.5,
+   "mistake_free_not_reached": 53,
+   "mistake_free": 238,
+   "f1": 0.1463
+  },
+  "InternVL3.5-2B zero-shot": {
+   "recordings": 36,
+   "stopped_early": 2,
+   "steps_reached": 465,
+   "steps": 474,
+   "ic_official": 32.8,
+   "ic_reached_only": 33.5,
+   "mistake_free_not_reached": 5,
+   "mistake_free": 238,
+   "f1": 0.0
+  },
+  "LLaVA-OV-7B zero-shot": {
+   "recordings": 36,
+   "stopped_early": 36,
+   "steps_reached": 36,
+   "steps": 474,
+   "ic_official": 0.0,
+   "ic_reached_only": 0.0,
+   "mistake_free_not_reached": 226,
+   "mistake_free": 238,
+   "f1": 0.0
+  },
+  "Qwen2.5-VL-7B zero-shot": {
+   "recordings": 36,
+   "stopped_early": 36,
+   "steps_reached": 49,
+   "steps": 474,
+   "ic_official": 1.7,
+   "ic_reached_only": 26.7,
+   "mistake_free_not_reached": 223,
+   "mistake_free": 238,
+   "f1": 0.0
+  },
+  "Qwen3.5-397B": {
+   "recordings": 36,
+   "stopped_early": 24,
+   "steps_reached": 323,
+   "steps": 474,
+   "ic_official": 18.1,
+   "ic_reached_only": 28.7,
+   "mistake_free_not_reached": 88,
+   "mistake_free": 238,
+   "f1": 0.2031
+  },
+  "Qwen3.8-Max": {
+   "recordings": 36,
+   "stopped_early": 4,
+   "steps_reached": 469,
+   "steps": 474,
+   "ic_official": 23.9,
+   "ic_reached_only": 24.3,
+   "mistake_free_not_reached": 3,
+   "mistake_free": 238,
+   "f1": 0.1892
+  },
+  "ECT s0": {
+   "recordings": 36,
+   "stopped_early": 0,
+   "steps_reached": 474,
+   "steps": 474,
+   "ic_official": 41.2,
+   "ic_reached_only": 41.2,
+   "mistake_free_not_reached": 0,
+   "mistake_free": 238,
+   "f1": 0.2174
+  },
+  "ECT s1": {
+   "recordings": 36,
+   "stopped_early": 3,
+   "steps_reached": 464,
+   "steps": 474,
+   "ic_official": 39.9,
+   "ic_reached_only": 41.5,
+   "mistake_free_not_reached": 9,
+   "mistake_free": 238,
+   "f1": 0.2842
+  },
+  "ECT s2": {
+   "recordings": 36,
+   "stopped_early": 4,
+   "steps_reached": 464,
+   "steps": 474,
+   "ic_official": 39.5,
+   "ic_reached_only": 40.5,
+   "mistake_free_not_reached": 6,
+   "mistake_free": 238,
+   "f1": 0.2674
+  },
+  "ECT s3": {
+   "recordings": 36,
+   "stopped_early": 1,
+   "steps_reached": 468,
+   "steps": 474,
+   "ic_official": 42.4,
+   "ic_reached_only": 43.2,
+   "mistake_free_not_reached": 4,
+   "mistake_free": 238,
+   "f1": 0.2213
+  },
+  "no paired neg. s0": {
+   "recordings": 36,
+   "stopped_early": 3,
+   "steps_reached": 463,
+   "steps": 474,
+   "ic_official": 23.1,
+   "ic_reached_only": 23.7,
+   "mistake_free_not_reached": 6,
+   "mistake_free": 238,
+   "f1": 0.2579
+  },
+  "no paired neg. s1": {
+   "recordings": 36,
+   "stopped_early": 1,
+   "steps_reached": 470,
+   "steps": 474,
+   "ic_official": 29.8,
+   "ic_reached_only": 30.2,
+   "mistake_free_not_reached": 3,
+   "mistake_free": 238,
+   "f1": 0.2541
+  },
+  "ECT Qwen3-VL-4B": {
+   "recordings": 36,
+   "stopped_early": 1,
+   "steps_reached": 472,
+   "steps": 474,
+   "ic_official": 40.3,
+   "ic_reached_only": 40.5,
+   "mistake_free_not_reached": 1,
+   "mistake_free": 238,
+   "f1": 0.227
+  },
+  "ECT InternVL3.5-2B": {
+   "recordings": 36,
+   "stopped_early": 2,
+   "steps_reached": 454,
+   "steps": 474,
+   "ic_official": 47.9,
+   "ic_reached_only": 50.0,
+   "mistake_free_not_reached": 10,
+   "mistake_free": 238,
+   "f1": 0.2563
+  },
+  "ECT LLaVA-OV-7B": {
+   "recordings": 36,
+   "stopped_early": 7,
+   "steps_reached": 430,
+   "steps": 474,
+   "ic_official": 49.6,
+   "ic_reached_only": 54.4,
+   "mistake_free_not_reached": 21,
+   "mistake_free": 238,
+   "f1": 0.1711
+  }
+ },
+ "mc": {
+  "Qwen3-VL-2B zero-shot": {
+   "recordings": 39,
+   "stopped_early": 5,
+   "steps_reached": 532,
+   "steps": 562,
+   "ic_official": 14.0,
+   "ic_reached_only": 14.7,
+   "mistake_free_not_reached": 13,
+   "mistake_free": 264,
+   "f1": 0.1474
+  },
+  "Qwen3-VL-2B + memory prompt": {
+   "recordings": 39,
+   "stopped_early": 5,
+   "steps_reached": 532,
+   "steps": 562,
+   "ic_official": 14.4,
+   "ic_reached_only": 15.1,
+   "mistake_free_not_reached": 13,
+   "mistake_free": 264,
+   "f1": 0.215
+  },
+  "InternVL3.5-2B zero-shot": {
+   "recordings": 39,
+   "stopped_early": 1,
+   "steps_reached": 550,
+   "steps": 562,
+   "ic_official": 49.2,
+   "ic_reached_only": 50.8,
+   "mistake_free_not_reached": 8,
+   "mistake_free": 264,
+   "f1": 0.0
+  },
+  "LLaVA-OV-7B zero-shot": {
+   "recordings": 39,
+   "stopped_early": 39,
+   "steps_reached": 39,
+   "steps": 562,
+   "ic_official": 0.0,
+   "ic_reached_only": 0.0,
+   "mistake_free_not_reached": 245,
+   "mistake_free": 264,
+   "f1": 0.0
+  },
+  "Qwen2.5-VL-7B zero-shot": {
+   "recordings": 39,
+   "stopped_early": 38,
+   "steps_reached": 96,
+   "steps": 562,
+   "ic_official": 8.0,
+   "ic_reached_only": 58.3,
+   "mistake_free_not_reached": 228,
+   "mistake_free": 264,
+   "f1": 0.0
+  },
+  "Qwen3.5-397B": {
+   "recordings": 39,
+   "stopped_early": 16,
+   "steps_reached": 455,
+   "steps": 562,
+   "ic_official": 34.5,
+   "ic_reached_only": 46.9,
+   "mistake_free_not_reached": 70,
+   "mistake_free": 264,
+   "f1": 0.2394
+  },
+  "Qwen3.8-Max": {
+   "recordings": 39,
+   "stopped_early": 2,
+   "steps_reached": 560,
+   "steps": 562,
+   "ic_official": 37.9,
+   "ic_reached_only": 38.2,
+   "mistake_free_not_reached": 2,
+   "mistake_free": 264,
+   "f1": 0.3236
+  },
+  "ECT s0": {
+   "recordings": 39,
+   "stopped_early": 2,
+   "steps_reached": 560,
+   "steps": 562,
+   "ic_official": 67.0,
+   "ic_reached_only": 67.6,
+   "mistake_free_not_reached": 2,
+   "mistake_free": 264,
+   "f1": 0.2084
+  },
+  "ECT s1": {
+   "recordings": 39,
+   "stopped_early": 3,
+   "steps_reached": 558,
+   "steps": 562,
+   "ic_official": 54.2,
+   "ic_reached_only": 55.0,
+   "mistake_free_not_reached": 4,
+   "mistake_free": 264,
+   "f1": 0.2275
+  },
+  "ECT s2": {
+   "recordings": 39,
+   "stopped_early": 4,
+   "steps_reached": 558,
+   "steps": 562,
+   "ic_official": 59.1,
+   "ic_reached_only": 59.8,
+   "mistake_free_not_reached": 3,
+   "mistake_free": 264,
+   "f1": 0.278
+  },
+  "ECT s3": {
+   "recordings": 39,
+   "stopped_early": 2,
+   "steps_reached": 560,
+   "steps": 562,
+   "ic_official": 55.7,
+   "ic_reached_only": 56.1,
+   "mistake_free_not_reached": 2,
+   "mistake_free": 264,
+   "f1": 0.2708
+  },
+  "no paired neg. s0": {
+   "recordings": 39,
+   "stopped_early": 0,
+   "steps_reached": 562,
+   "steps": 562,
+   "ic_official": 47.7,
+   "ic_reached_only": 47.7,
+   "mistake_free_not_reached": 0,
+   "mistake_free": 264,
+   "f1": 0.3406
+  },
+  "no paired neg. s1": {
+   "recordings": 39,
+   "stopped_early": 1,
+   "steps_reached": 561,
+   "steps": 562,
+   "ic_official": 48.9,
+   "ic_reached_only": 49.0,
+   "mistake_free_not_reached": 1,
+   "mistake_free": 264,
+   "f1": 0.3333
+  },
+  "ECT Qwen3-VL-4B": {
+   "recordings": 39,
+   "stopped_early": 3,
+   "steps_reached": 559,
+   "steps": 562,
+   "ic_official": 61.7,
+   "ic_reached_only": 62.5,
+   "mistake_free_not_reached": 3,
+   "mistake_free": 264,
+   "f1": 0.1753
+  },
+  "ECT InternVL3.5-2B": {
+   "recordings": 39,
+   "stopped_early": 2,
+   "steps_reached": 560,
+   "steps": 562,
+   "ic_official": 64.0,
+   "ic_reached_only": 64.5,
+   "mistake_free_not_reached": 2,
+   "mistake_free": 264,
+   "f1": 0.1036
+  },
+  "ECT LLaVA-OV-7B": {
+   "recordings": 39,
+   "stopped_early": 5,
+   "steps_reached": 551,
+   "steps": 562,
+   "ic_official": 64.0,
+   "ic_reached_only": 66.0,
+   "mistake_free_not_reached": 8,
+   "mistake_free": 264,
+   "f1": 0.0905
+  }
+ }
+}

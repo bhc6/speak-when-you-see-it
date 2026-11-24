@@ -1,0 +1,129 @@
+{
+ "note": "Runs finished after the frozen table of audit_1114/ (pre-registered in the experiment registry). QICD test36, official eval, last cumulative block; margin = F1 - frontier_canon.fr('qicd', IC); pair accuracies from the 931 time-matched pairs. Written by make_addendum.py.",
+ "ABL_noCL_s2": {
+  "source_eval": "machine7/results/jobs/ABL_noCL_s2_greedy_test36/eval.log",
+  "qicd_ic": 31.1,
+  "qicd_tp_fp_fn": [
+   124,
+   291,
+   139
+  ],
+  "qicd_P": 0.299,
+  "qicd_R": 0.471,
+  "qicd_f1": 0.366,
+  "qicd_margin": 0.126,
+  "source_epairs": "machine7/results/jobs/epairs/ABL_noCL_s2.json",
+  "n_pairs": 931,
+  "done_pairacc": 0.894,
+  "done_both": 0.667,
+  "done_neg_yes": 0.079,
+  "mis_pairacc": 0.784,
+  "mis_both": 0.323,
+  "mis_neg_yes": 0.167
+ },
+ "ABL_noCL_s3": {
+  "source_eval": "machine0/results/jobs/ABL_noCL_s3_greedy_test36/eval.log",
+  "qicd_ic": 40.8,
+  "qicd_tp_fp_fn": [
+   111,
+   426,
+   152
+  ],
+  "qicd_P": 0.207,
+  "qicd_R": 0.422,
+  "qicd_f1": 0.278,
+  "qicd_margin": 0.116,
+  "source_epairs": "machine0/results/jobs/epairs/ABL_noCL_s3.json",
+  "n_pairs": 931,
+  "done_pairacc": 0.896,
+  "done_both": 0.626,
+  "done_neg_yes": 0.086,
+  "mis_pairacc": 0.681,
+  "mis_both": 0.274,
+  "mis_neg_yes": 0.152
+ },
+ "ECT_unm_s0": {
+  "source_eval": "machine5/results/jobs/ECT_unm_s0_greedy_test36/eval.log",
+  "qicd_ic": 41.2,
+  "qicd_tp_fp_fn": [
+   76,
+   181,
+   187
+  ],
+  "qicd_P": 0.296,
+  "qicd_R": 0.289,
+  "qicd_f1": 0.292,
+  "qicd_margin": 0.137,
+  "source_epairs": "machine5/results/jobs/epairs/ECT_unm_s0.json",
+  "n_pairs": 931,
+  "done_pairacc": 0.897,
+  "done_both": 0.624,
+  "done_neg_yes": 0.094,
+  "mis_pairacc": 0.78,
+  "mis_both": 0.204,
+  "mis_neg_yes": 0.054
+ },
+ "ECT_unm_s1": {
+  "source_eval": "machine4/results/jobs/ECT_unm_s1_greedy_test36/eval.log",
+  "qicd_ic": 36.1,
+  "qicd_tp_fp_fn": [
+   71,
+   190,
+   192
+  ],
+  "qicd_P": 0.272,
+  "qicd_R": 0.27,
+  "qicd_f1": 0.271,
+  "qicd_margin": 0.059,
+  "source_epairs": "machine4/results/jobs/epairs/ECT_unm_s1.json",
+  "n_pairs": 931,
+  "done_pairacc": 0.91,
+  "done_both": 0.635,
+  "done_neg_yes": 0.089,
+  "mis_pairacc": 0.7,
+  "mis_both": 0.218,
+  "mis_neg_yes": 0.107
+ },
+ "ECT_blind_s0": {
+  "source_eval": "machine7/results/jobs/ECT_blind_s0_greedy_test36/eval.log",
+  "qicd_ic": 10.1,
+  "qicd_tp_fp_fn": [
+   0,
+   0,
+   263
+  ],
+  "qicd_P": 0.0,
+  "qicd_R": 0.0,
+  "qicd_f1": 0.0,
+  "qicd_margin": -0.316,
+  "source_epairs": "machine7/results/jobs/epairs/ECT_blind_s0.json",
+  "n_pairs": 931,
+  "done_pairacc": 0.639,
+  "done_both": 0.273,
+  "done_neg_yes": 0.266,
+  "mis_pairacc": 0.557,
+  "mis_both": 0.01,
+  "mis_neg_yes": 0.006
+ },
+ "ECT_blind_s1": {
+  "source_eval": "machine3/results/jobs/ECT_blind_s1_greedy_test36/eval.log",
+  "qicd_ic": 18.1,
+  "qicd_tp_fp_fn": [
+   0,
+   0,
+   263
+  ],
+  "qicd_P": 0.0,
+  "qicd_R": 0.0,
+  "qicd_f1": 0.0,
+  "qicd_margin": -0.307,
+  "source_epairs": "machine3/results/jobs/epairs/ECT_blind_s1.json",
+  "n_pairs": 931,
+  "done_pairacc": 0.618,
+  "done_both": 0.297,
+  "done_neg_yes": 0.348,
+  "mis_pairacc": 0.54,
+  "mis_both": 0.0,
+  "mis_neg_yes": 0.0
+ }
+}

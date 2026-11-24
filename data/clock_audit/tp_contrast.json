@@ -1,0 +1,52 @@
+{
+ "n_situations": 411,
+ "silence_shift": {
+  "ECT s0": {
+   "done_ts2": 0.005,
+   "done_ts05": -0.003,
+   "mis_ts2": 0.007,
+   "mis_ts05": -0.005
+  },
+  "no paired neg. s0": {
+   "done_ts2": 0.149,
+   "done_ts05": 0.138,
+   "mis_ts2": 0.157,
+   "mis_ts05": 0.155
+  },
+  "plain fine-tuning": {
+   "done_ts2": 0.238,
+   "done_ts05": 0.191,
+   "mis_ts2": 0.115,
+   "mis_ts05": 0.066
+  },
+  "ECT recipe on black frames s0": {
+   "done_ts2": 0.171,
+   "done_ts05": 0.147,
+   "mis_ts2": 0.098,
+   "mis_ts05": 0.089
+  }
+ },
+ "ect_minus_noneg_mistake_auroc": {
+  "ts1": [
+   -0.13,
+   [
+    -0.19,
+    -0.079
+   ]
+  ],
+  "ts2": [
+   0.025,
+   [
+    -0.031,
+    0.08
+   ]
+  ],
+  "ts05": [
+   0.042,
+   [
+    -0.011,
+    0.1
+   ]
+  ]
+ }
+}

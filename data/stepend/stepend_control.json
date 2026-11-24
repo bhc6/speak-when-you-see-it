@@ -1,0 +1,170 @@
+{
+ "n": {
+  "mistake": 641,
+  "success": 1165,
+  "silence": 1769
+ },
+ "mistake_R_quartiles": [
+  -10.0,
+  -10.0,
+  -5.0,
+  0.0,
+  154.7
+ ],
+ "point": {
+  "ECT_s0": {
+   "end_matched": 0.617,
+   "mis_vs_success": 0.617,
+   "mis_vs_silence": 0.85,
+   "matched_frac_pos": 0.998
+  },
+  "ECT_s1": {
+   "end_matched": 0.636,
+   "mis_vs_success": 0.638,
+   "mis_vs_silence": 0.855,
+   "matched_frac_pos": 0.998
+  },
+  "ECT_s2": {
+   "end_matched": 0.574,
+   "mis_vs_success": 0.582,
+   "mis_vs_silence": 0.833,
+   "matched_frac_pos": 0.998
+  },
+  "none": {
+   "end_matched": 0.742,
+   "mis_vs_success": 0.726,
+   "mis_vs_silence": 0.957,
+   "matched_frac_pos": 0.998
+  },
+  "clean_only": {
+   "end_matched": 0.653,
+   "mis_vs_success": 0.648,
+   "mis_vs_silence": 0.859,
+   "matched_frac_pos": 0.998
+  },
+  "notdone_only": {
+   "end_matched": 0.726,
+   "mis_vs_success": 0.711,
+   "mis_vs_silence": 0.931,
+   "matched_frac_pos": 0.998
+  }
+ },
+ "ci": {
+  "ECT_s0": {
+   "end_matched": [
+    0.565,
+    0.668
+   ],
+   "mis_vs_success": [
+    0.57,
+    0.663
+   ],
+   "mis_vs_silence": [
+    0.825,
+    0.873
+   ]
+  },
+  "ECT_s1": {
+   "end_matched": [
+    0.576,
+    0.694
+   ],
+   "mis_vs_success": [
+    0.586,
+    0.689
+   ],
+   "mis_vs_silence": [
+    0.825,
+    0.883
+   ]
+  },
+  "ECT_s2": {
+   "end_matched": [
+    0.521,
+    0.631
+   ],
+   "mis_vs_success": [
+    0.531,
+    0.638
+   ],
+   "mis_vs_silence": [
+    0.803,
+    0.862
+   ]
+  },
+  "none": {
+   "end_matched": [
+    0.695,
+    0.787
+   ],
+   "mis_vs_success": [
+    0.682,
+    0.77
+   ],
+   "mis_vs_silence": [
+    0.943,
+    0.969
+   ]
+  },
+  "clean_only": {
+   "end_matched": [
+    0.608,
+    0.701
+   ],
+   "mis_vs_success": [
+    0.603,
+    0.694
+   ],
+   "mis_vs_silence": [
+    0.834,
+    0.883
+   ]
+  },
+  "notdone_only": {
+   "end_matched": [
+    0.687,
+    0.766
+   ],
+   "mis_vs_success": [
+    0.672,
+    0.749
+   ],
+   "mis_vs_silence": [
+    0.915,
+    0.946
+   ]
+  }
+ },
+ "ECT_mean_minus": {
+  "none": {
+   "end_matched": [
+    -0.178,
+    -0.089
+   ],
+   "mis_vs_silence": [
+    -0.134,
+    -0.09
+   ]
+  },
+  "clean_only": {
+   "end_matched": [
+    -0.075,
+    -0.012
+   ],
+   "mis_vs_silence": [
+    -0.029,
+    0.001
+   ]
+  },
+  "notdone_only": {
+   "end_matched": [
+    -0.156,
+    -0.083
+   ],
+   "mis_vs_silence": [
+    -0.11,
+    -0.063
+   ]
+  }
+ }
+}

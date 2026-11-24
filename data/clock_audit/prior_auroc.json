@@ -1,0 +1,39 @@
+{
+ "n_train_videos": 209,
+ "neurips2025_validation": {
+  "completion": {
+   "elapsed": 0.558,
+   "elapsed_over_prior": 0.69,
+   "neg_abs_elapsed_minus_prior": 0.658
+  },
+  "mistake_elapsed": 0.5,
+  "within_step_elapsed": 1.0,
+  "steps_with_prior": 0.995,
+  "n_pos": 3403,
+  "n_neg": 7960
+ },
+ "neurips2025_test": {
+  "completion": {
+   "elapsed": 0.525,
+   "elapsed_over_prior": 0.61,
+   "neg_abs_elapsed_minus_prior": 0.628
+  },
+  "mistake_elapsed": 0.521,
+  "within_step_elapsed": 0.999,
+  "steps_with_prior": 0.994,
+  "n_pos": 1361,
+  "n_neg": 4518
+ },
+ "ego_mc_bench_test": {
+  "completion": {
+   "elapsed": 0.342,
+   "elapsed_over_prior": 0.342,
+   "neg_abs_elapsed_minus_prior": 0.618
+  },
+  "mistake_elapsed": 0.432,
+  "within_step_elapsed": 0.775,
+  "steps_with_prior": 0.004,
+  "n_pos": 1356,
+  "n_neg": 6889
+ }
+}

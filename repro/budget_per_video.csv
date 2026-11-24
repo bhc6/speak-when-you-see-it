@@ -1,0 +1,301 @@
+benchmark,run,tau,video,ic_hits,mistake_free_steps,tp,fp,fn
+qicd,"ECT (thresholded, seed 0)",0.35,10_47,9,12,2,0,5
+qicd,"ECT (thresholded, seed 0)",0.35,10_48,3,6,4,6,6
+qicd,"ECT (thresholded, seed 0)",0.35,15_46,5,14,2,3,2
+qicd,"ECT (thresholded, seed 0)",0.35,16_20,7,23,0,12,0
+qicd,"ECT (thresholded, seed 0)",0.35,16_44,5,8,2,4,11
+qicd,"ECT (thresholded, seed 0)",0.35,17_43,4,6,2,10,2
+qicd,"ECT (thresholded, seed 0)",0.35,17_45,1,4,2,2,5
+qicd,"ECT (thresholded, seed 0)",0.35,17_49,1,5,2,12,4
+qicd,"ECT (thresholded, seed 0)",0.35,18_49,3,6,1,14,8
+qicd,"ECT (thresholded, seed 0)",0.35,1_136,0,1,2,5,6
+qicd,"ECT (thresholded, seed 0)",0.35,1_143,0,3,4,1,6
+qicd,"ECT (thresholded, seed 0)",0.35,1_43,3,5,2,1,4
+qicd,"ECT (thresholded, seed 0)",0.35,1_49,3,6,5,3,2
+qicd,"ECT (thresholded, seed 0)",0.35,20_48,1,8,0,19,11
+qicd,"ECT (thresholded, seed 0)",0.35,22_40,6,8,3,4,4
+qicd,"ECT (thresholded, seed 0)",0.35,22_41,3,9,1,0,6
+qicd,"ECT (thresholded, seed 0)",0.35,25_42,8,15,1,1,3
+qicd,"ECT (thresholded, seed 0)",0.35,25_48,1,6,1,0,7
+qicd,"ECT (thresholded, seed 0)",0.35,26_46,4,7,7,7,9
+qicd,"ECT (thresholded, seed 0)",0.35,27_38,0,3,2,6,5
+qicd,"ECT (thresholded, seed 0)",0.35,27_45,1,6,3,10,2
+qicd,"ECT (thresholded, seed 0)",0.35,27_49,3,7,2,4,2
+qicd,"ECT (thresholded, seed 0)",0.35,28_45,4,6,1,2,6
+qicd,"ECT (thresholded, seed 0)",0.35,28_50,0,5,1,2,9
+qicd,"ECT (thresholded, seed 0)",0.35,29_129,3,8,0,7,2
+qicd,"ECT (thresholded, seed 0)",0.35,29_48,4,4,4,1,3
+qicd,"ECT (thresholded, seed 0)",0.35,29_49,1,3,4,4,5
+qicd,"ECT (thresholded, seed 0)",0.35,2_47,3,6,3,6,8
+qicd,"ECT (thresholded, seed 0)",0.35,3_46,1,6,6,5,3
+qicd,"ECT (thresholded, seed 0)",0.35,3_49,4,7,3,9,4
+qicd,"ECT (thresholded, seed 0)",0.35,3_50,3,11,1,5,2
+qicd,"ECT (thresholded, seed 0)",0.35,5_44,2,5,1,1,14
+qicd,"ECT (thresholded, seed 0)",0.35,7_135,1,3,2,3,5
+qicd,"ECT (thresholded, seed 0)",0.35,7_50,1,2,2,2,7
+qicd,"ECT (thresholded, seed 0)",0.35,8_45,0,0,1,0,5
+qicd,"ECT (thresholded, seed 0)",0.35,8_50,2,4,0,3,1
+qicd,No paired neg.,0.60,10_47,6,12,5,21,2
+qicd,No paired neg.,0.60,10_48,4,6,4,2,6
+qicd,No paired neg.,0.60,15_46,6,14,2,2,2
+qicd,No paired neg.,0.60,16_20,8,23,0,15,0
+qicd,No paired neg.,0.60,16_44,1,8,6,12,7
+qicd,No paired neg.,0.60,17_43,1,6,3,13,1
+qicd,No paired neg.,0.60,17_45,2,4,4,12,3
+qicd,No paired neg.,0.60,17_49,1,5,3,12,3
+qicd,No paired neg.,0.60,18_49,3,6,2,18,7
+qicd,No paired neg.,0.60,1_136,0,1,2,4,6
+qicd,No paired neg.,0.60,1_143,0,3,5,10,5
+qicd,No paired neg.,0.60,1_43,1,5,2,10,4
+qicd,No paired neg.,0.60,1_49,2,6,1,3,6
+qicd,No paired neg.,0.60,20_48,3,8,0,15,11
+qicd,No paired neg.,0.60,22_40,6,8,2,0,5
+qicd,No paired neg.,0.60,22_41,3,9,1,4,6
+qicd,No paired neg.,0.60,25_42,6,15,0,2,4
+qicd,No paired neg.,0.60,25_48,2,6,0,2,8
+qicd,No paired neg.,0.60,26_46,3,7,10,8,6
+qicd,No paired neg.,0.60,27_38,2,3,5,6,2
+qicd,No paired neg.,0.60,27_45,2,6,1,8,4
+qicd,No paired neg.,0.60,27_49,3,7,2,4,2
+qicd,No paired neg.,0.60,28_45,2,6,1,2,6
+qicd,No paired neg.,0.60,28_50,1,5,3,5,7
+qicd,No paired neg.,0.60,29_129,2,8,2,10,0
+qicd,No paired neg.,0.60,29_48,4,4,2,2,5
+qicd,No paired neg.,0.60,29_49,2,3,4,4,5
+qicd,No paired neg.,0.60,2_47,2,6,2,4,9
+qicd,No paired neg.,0.60,3_46,0,6,3,8,6
+qicd,No paired neg.,0.60,3_49,2,7,2,7,5
+qicd,No paired neg.,0.60,3_50,2,11,1,3,2
+qicd,No paired neg.,0.60,5_44,1,5,0,2,15
+qicd,No paired neg.,0.60,7_135,0,3,1,4,6
+qicd,No paired neg.,0.60,7_50,0,2,2,4,7
+qicd,No paired neg.,0.60,8_45,0,0,3,0,3
+qicd,No paired neg.,0.60,8_50,0,4,0,17,1
+qicd,+ notdone,0.47,10_47,8,12,4,7,3
+qicd,+ notdone,0.47,10_48,3,6,4,15,6
+qicd,+ notdone,0.47,15_46,5,14,2,6,2
+qicd,+ notdone,0.47,16_20,4,23,0,8,0
+qicd,+ notdone,0.47,16_44,2,8,2,5,11
+qicd,+ notdone,0.47,17_43,3,6,3,4,1
+qicd,+ notdone,0.47,17_45,0,4,3,8,4
+qicd,+ notdone,0.47,17_49,2,5,4,4,2
+qicd,+ notdone,0.47,18_49,3,6,1,15,8
+qicd,+ notdone,0.47,1_136,0,1,2,2,6
+qicd,+ notdone,0.47,1_143,0,3,5,6,5
+qicd,+ notdone,0.47,1_43,1,5,3,8,3
+qicd,+ notdone,0.47,1_49,3,6,3,0,4
+qicd,+ notdone,0.47,20_48,2,8,1,15,10
+qicd,+ notdone,0.47,22_40,5,8,3,0,4
+qicd,+ notdone,0.47,22_41,3,9,1,0,6
+qicd,+ notdone,0.47,25_42,8,15,1,1,3
+qicd,+ notdone,0.47,25_48,2,6,1,2,7
+qicd,+ notdone,0.47,26_46,3,7,7,3,9
+qicd,+ notdone,0.47,27_38,2,3,4,3,3
+qicd,+ notdone,0.47,27_45,2,6,1,13,4
+qicd,+ notdone,0.47,27_49,2,7,2,8,2
+qicd,+ notdone,0.47,28_45,3,6,1,3,6
+qicd,+ notdone,0.47,28_50,1,5,1,3,9
+qicd,+ notdone,0.47,29_129,2,8,1,9,1
+qicd,+ notdone,0.47,29_48,2,4,2,2,5
+qicd,+ notdone,0.47,29_49,1,3,3,4,6
+qicd,+ notdone,0.47,2_47,3,6,2,10,9
+qicd,+ notdone,0.47,3_46,1,6,5,8,4
+qicd,+ notdone,0.47,3_49,2,7,4,6,3
+qicd,+ notdone,0.47,3_50,3,11,1,2,2
+qicd,+ notdone,0.47,5_44,1,5,0,3,15
+qicd,+ notdone,0.47,7_135,1,3,2,1,5
+qicd,+ notdone,0.47,7_50,1,2,2,4,7
+qicd,+ notdone,0.47,8_45,0,0,3,0,3
+qicd,+ notdone,0.47,8_50,2,4,0,5,1
+qicd,+ clean,0.33,10_47,9,12,2,0,5
+qicd,+ clean,0.33,10_48,2,6,2,6,8
+qicd,+ clean,0.33,15_46,5,14,1,4,3
+qicd,+ clean,0.33,16_20,6,23,0,11,0
+qicd,+ clean,0.33,16_44,5,8,3,5,10
+qicd,+ clean,0.33,17_43,4,6,2,0,2
+qicd,+ clean,0.33,17_45,1,4,0,4,7
+qicd,+ clean,0.33,17_49,3,5,2,7,4
+qicd,+ clean,0.33,18_49,3,6,2,15,7
+qicd,+ clean,0.33,1_136,0,1,1,5,7
+qicd,+ clean,0.33,1_143,1,3,4,2,6
+qicd,+ clean,0.33,1_43,3,5,4,2,2
+qicd,+ clean,0.33,1_49,3,6,5,5,2
+qicd,+ clean,0.33,20_48,1,8,0,14,11
+qicd,+ clean,0.33,22_40,4,8,3,1,4
+qicd,+ clean,0.33,22_41,3,9,1,0,6
+qicd,+ clean,0.33,25_42,5,15,2,5,2
+qicd,+ clean,0.33,25_48,2,6,1,5,7
+qicd,+ clean,0.33,26_46,5,7,8,0,8
+qicd,+ clean,0.33,27_38,0,3,4,2,3
+qicd,+ clean,0.33,27_45,1,6,2,1,3
+qicd,+ clean,0.33,27_49,3,7,2,7,2
+qicd,+ clean,0.33,28_45,2,6,1,1,6
+qicd,+ clean,0.33,28_50,2,5,3,4,7
+qicd,+ clean,0.33,29_129,2,8,2,8,0
+qicd,+ clean,0.33,29_48,3,4,4,2,3
+qicd,+ clean,0.33,29_49,1,3,4,7,5
+qicd,+ clean,0.33,2_47,2,6,4,12,7
+qicd,+ clean,0.33,3_46,2,6,4,8,5
+qicd,+ clean,0.33,3_49,4,7,1,3,6
+qicd,+ clean,0.33,3_50,4,11,1,2,2
+qicd,+ clean,0.33,5_44,1,5,5,4,10
+qicd,+ clean,0.33,7_135,0,3,3,2,4
+qicd,+ clean,0.33,7_50,0,2,2,0,7
+qicd,+ clean,0.33,8_45,0,0,3,3,3
+qicd,+ clean,0.33,8_50,1,4,0,6,1
+mc,"ECT (thresholded, seed 0)",0.35,GX010021,3,6,2,7,5
+mc,"ECT (thresholded, seed 0)",0.35,GX010023,4,7,0,3,5
+mc,"ECT (thresholded, seed 0)",0.35,GX010029,7,8,0,0,7
+mc,"ECT (thresholded, seed 0)",0.35,GX010030,6,8,0,3,2
+mc,"ECT (thresholded, seed 0)",0.35,GX010032,5,7,1,1,2
+mc,"ECT (thresholded, seed 0)",0.35,GX010033,4,6,1,4,4
+mc,"ECT (thresholded, seed 0)",0.35,GX010036,7,10,1,0,6
+mc,"ECT (thresholded, seed 0)",0.35,GX010037,3,11,2,0,9
+mc,"ECT (thresholded, seed 0)",0.35,GX010040,1,3,2,1,3
+mc,"ECT (thresholded, seed 0)",0.35,GX010041,1,2,2,0,4
+mc,"ECT (thresholded, seed 0)",0.35,GX010043,5,8,1,2,7
+mc,"ECT (thresholded, seed 0)",0.35,GX010044,8,11,0,3,9
+mc,"ECT (thresholded, seed 0)",0.35,GX010046,2,4,1,1,7
+mc,"ECT (thresholded, seed 0)",0.35,GX010047,1,3,1,0,4
+mc,"ECT (thresholded, seed 0)",0.35,GX010048,2,2,2,1,6
+mc,"ECT (thresholded, seed 0)",0.35,GX010049,2,2,0,0,6
+mc,"ECT (thresholded, seed 0)",0.35,GX010050,5,14,0,0,9
+mc,"ECT (thresholded, seed 0)",0.35,GX010053,5,9,0,3,11
+mc,"ECT (thresholded, seed 0)",0.35,GX010054,3,7,5,7,6
+mc,"ECT (thresholded, seed 0)",0.35,GX010057,5,13,0,6,18
+mc,"ECT (thresholded, seed 0)",0.35,GX010058,2,4,3,0,16
+mc,"ECT (thresholded, seed 0)",0.35,GX010059,7,9,3,0,20
+mc,"ECT (thresholded, seed 0)",0.35,GX010060,0,3,2,2,12
+mc,"ECT (thresholded, seed 0)",0.35,GX010062,2,5,2,4,14
+mc,"ECT (thresholded, seed 0)",0.35,GX010063,1,2,2,5,10
+mc,"ECT (thresholded, seed 0)",0.35,GX010064,1,2,2,0,8
+mc,"ECT (thresholded, seed 0)",0.35,GX010065,3,4,1,0,8
+mc,"ECT (thresholded, seed 0)",0.35,GX010066,1,1,3,0,7
+mc,"ECT (thresholded, seed 0)",0.35,GX010068,3,6,2,3,9
+mc,"ECT (thresholded, seed 0)",0.35,GX010070,5,8,1,3,18
+mc,"ECT (thresholded, seed 0)",0.35,GX010072,11,14,1,1,10
+mc,"ECT (thresholded, seed 0)",0.35,GX010073,10,15,0,3,16
+mc,"ECT (thresholded, seed 0)",0.35,GX010074,8,18,1,5,15
+mc,"ECT (thresholded, seed 0)",0.35,GX010075,2,7,2,9,6
+mc,"ECT (thresholded, seed 0)",0.35,GX010076,4,4,2,0,14
+mc,"ECT (thresholded, seed 0)",0.35,GX010077,1,2,2,3,10
+mc,"ECT (thresholded, seed 0)",0.35,GX010078,0,3,2,7,6
+mc,"ECT (thresholded, seed 0)",0.35,GX010079,1,5,3,4,7
+mc,"ECT (thresholded, seed 0)",0.35,GX010081,5,11,0,0,6
+mc,No paired neg.,0.60,GX010021,2,6,1,6,6
+mc,No paired neg.,0.60,GX010023,3,7,0,6,5
+mc,No paired neg.,0.60,GX010029,8,8,2,3,5
+mc,No paired neg.,0.60,GX010030,5,8,0,4,2
+mc,No paired neg.,0.60,GX010032,3,7,3,8,0
+mc,No paired neg.,0.60,GX010033,3,6,3,1,2
+mc,No paired neg.,0.60,GX010036,5,10,0,0,7
+mc,No paired neg.,0.60,GX010037,3,11,0,2,11
+mc,No paired neg.,0.60,GX010040,2,3,0,0,5
+mc,No paired neg.,0.60,GX010041,0,2,2,2,4
+mc,No paired neg.,0.60,GX010043,7,8,1,1,7
+mc,No paired neg.,0.60,GX010044,8,11,2,3,7
+mc,No paired neg.,0.60,GX010046,2,4,1,0,7
+mc,No paired neg.,0.60,GX010047,2,3,2,0,3
+mc,No paired neg.,0.60,GX010048,2,2,2,0,6
+mc,No paired neg.,0.60,GX010049,2,2,4,2,2
+mc,No paired neg.,0.60,GX010050,4,14,0,5,9
+mc,No paired neg.,0.60,GX010053,4,9,1,0,10
+mc,No paired neg.,0.60,GX010054,4,7,5,3,6
+mc,No paired neg.,0.60,GX010057,5,13,0,5,18
+mc,No paired neg.,0.60,GX010058,1,4,4,1,15
+mc,No paired neg.,0.60,GX010059,6,9,1,2,22
+mc,No paired neg.,0.60,GX010060,0,3,3,9,11
+mc,No paired neg.,0.60,GX010062,2,5,4,2,12
+mc,No paired neg.,0.60,GX010063,0,2,2,0,10
+mc,No paired neg.,0.60,GX010064,0,2,3,2,7
+mc,No paired neg.,0.60,GX010065,2,4,0,0,9
+mc,No paired neg.,0.60,GX010066,1,1,2,0,8
+mc,No paired neg.,0.60,GX010068,6,6,3,1,8
+mc,No paired neg.,0.60,GX010070,5,8,5,2,14
+mc,No paired neg.,0.60,GX010072,8,14,0,1,11
+mc,No paired neg.,0.60,GX010073,8,15,2,3,14
+mc,No paired neg.,0.60,GX010074,7,18,1,5,15
+mc,No paired neg.,0.60,GX010075,5,7,1,2,7
+mc,No paired neg.,0.60,GX010076,4,4,1,2,15
+mc,No paired neg.,0.60,GX010077,1,2,2,5,10
+mc,No paired neg.,0.60,GX010078,1,3,2,8,6
+mc,No paired neg.,0.60,GX010079,1,5,5,7,5
+mc,No paired neg.,0.60,GX010081,6,11,1,2,5
+mc,+ notdone,0.47,GX010021,2,6,0,1,7
+mc,+ notdone,0.47,GX010023,4,7,0,4,5
+mc,+ notdone,0.47,GX010029,7,8,2,3,5
+mc,+ notdone,0.47,GX010030,6,8,0,1,2
+mc,+ notdone,0.47,GX010032,3,7,1,2,2
+mc,+ notdone,0.47,GX010033,4,6,1,3,4
+mc,+ notdone,0.47,GX010036,6,10,0,1,7
+mc,+ notdone,0.47,GX010037,3,11,2,0,9
+mc,+ notdone,0.47,GX010040,1,3,2,2,3
+mc,+ notdone,0.47,GX010041,1,2,2,0,4
+mc,+ notdone,0.47,GX010043,7,8,2,1,6
+mc,+ notdone,0.47,GX010044,9,11,0,2,9
+mc,+ notdone,0.47,GX010046,2,4,2,1,6
+mc,+ notdone,0.47,GX010047,1,3,1,0,4
+mc,+ notdone,0.47,GX010048,2,2,1,0,7
+mc,+ notdone,0.47,GX010049,2,2,0,0,6
+mc,+ notdone,0.47,GX010050,6,14,0,4,9
+mc,+ notdone,0.47,GX010053,4,9,1,2,10
+mc,+ notdone,0.47,GX010054,5,7,1,0,10
+mc,+ notdone,0.47,GX010057,4,13,0,7,18
+mc,+ notdone,0.47,GX010058,2,4,4,2,15
+mc,+ notdone,0.47,GX010059,8,9,3,3,20
+mc,+ notdone,0.47,GX010060,0,3,2,5,12
+mc,+ notdone,0.47,GX010062,3,5,2,6,14
+mc,+ notdone,0.47,GX010063,1,2,2,4,10
+mc,+ notdone,0.47,GX010064,1,2,2,2,8
+mc,+ notdone,0.47,GX010065,2,4,0,1,9
+mc,+ notdone,0.47,GX010066,1,1,1,0,9
+mc,+ notdone,0.47,GX010068,4,6,3,0,8
+mc,+ notdone,0.47,GX010070,3,8,3,3,16
+mc,+ notdone,0.47,GX010072,9,14,0,1,11
+mc,+ notdone,0.47,GX010073,12,15,0,2,16
+mc,+ notdone,0.47,GX010074,8,18,1,3,15
+mc,+ notdone,0.47,GX010075,1,7,1,9,7
+mc,+ notdone,0.47,GX010076,4,4,0,1,16
+mc,+ notdone,0.47,GX010077,0,2,3,14,9
+mc,+ notdone,0.47,GX010078,1,3,2,6,6
+mc,+ notdone,0.47,GX010079,1,5,5,8,5
+mc,+ notdone,0.47,GX010081,4,11,1,9,5
+mc,+ clean,0.33,GX010021,2,6,1,4,6
+mc,+ clean,0.33,GX010023,4,7,0,3,5
+mc,+ clean,0.33,GX010029,8,8,3,1,4
+mc,+ clean,0.33,GX010030,6,8,0,2,2
+mc,+ clean,0.33,GX010032,5,7,1,6,2
+mc,+ clean,0.33,GX010033,4,6,2,0,3
+mc,+ clean,0.33,GX010036,7,10,0,0,7
+mc,+ clean,0.33,GX010037,2,11,1,2,10
+mc,+ clean,0.33,GX010040,2,3,2,1,3
+mc,+ clean,0.33,GX010041,0,2,2,0,4
+mc,+ clean,0.33,GX010043,5,8,1,5,7
+mc,+ clean,0.33,GX010044,7,11,1,2,8
+mc,+ clean,0.33,GX010046,2,4,1,0,7
+mc,+ clean,0.33,GX010047,1,3,1,1,4
+mc,+ clean,0.33,GX010048,2,2,1,0,7
+mc,+ clean,0.33,GX010049,2,2,2,0,4
+mc,+ clean,0.33,GX010050,4,14,0,4,9
+mc,+ clean,0.33,GX010053,3,9,1,1,10
+mc,+ clean,0.33,GX010054,4,7,4,3,7
+mc,+ clean,0.33,GX010057,5,13,3,5,15
+mc,+ clean,0.33,GX010058,1,4,3,1,16
+mc,+ clean,0.33,GX010059,7,9,2,1,21
+mc,+ clean,0.33,GX010060,0,3,2,4,12
+mc,+ clean,0.33,GX010062,2,5,5,1,11
+mc,+ clean,0.33,GX010063,1,2,1,3,11
+mc,+ clean,0.33,GX010064,0,2,2,2,8
+mc,+ clean,0.33,GX010065,2,4,1,1,8
+mc,+ clean,0.33,GX010066,1,1,3,0,7
+mc,+ clean,0.33,GX010068,2,6,4,6,7
+mc,+ clean,0.33,GX010070,6,8,3,1,16
+mc,+ clean,0.33,GX010072,7,14,2,2,9
+mc,+ clean,0.33,GX010073,10,15,2,3,14
+mc,+ clean,0.33,GX010074,9,18,3,7,13
+mc,+ clean,0.33,GX010075,3,7,4,5,4
+mc,+ clean,0.33,GX010076,4,4,2,2,14
+mc,+ clean,0.33,GX010077,2,2,2,3,10
+mc,+ clean,0.33,GX010078,1,3,1,2,7
+mc,+ clean,0.33,GX010079,1,5,5,9,5
+mc,+ clean,0.33,GX010081,4,11,1,10,5
