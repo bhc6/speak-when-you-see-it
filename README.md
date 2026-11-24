@@ -1,6 +1,6 @@
 # Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock
 
-Code and results for the paper by Bohe Chen (arXiv: ARXIV_ID). ECT LoRA adapters on Hugging Face: [`bhc6/ECT-Qwen3-VL-2B`](https://huggingface.co/bhc6/ECT-Qwen3-VL-2B) (four seeds and the no-paired-negatives ablation), [`bhc6/ECT-Qwen3-VL-4B`](https://huggingface.co/bhc6/ECT-Qwen3-VL-4B), [`bhc6/ECT-InternVL3.5-2B`](https://huggingface.co/bhc6/ECT-InternVL3.5-2B), [`bhc6/ECT-LLaVA-OneVision-7B`](https://huggingface.co/bhc6/ECT-LLaVA-OneVision-7B). This repository holds the code and results used
+Code and results for the paper by Bohe Chen ([arXiv:2611.30895](https://arxiv.org/abs/2611.30895)). ECT LoRA adapters on Hugging Face: [`bhc6/ECT-Qwen3-VL-2B`](https://huggingface.co/bhc6/ECT-Qwen3-VL-2B) (four seeds and the no-paired-negatives ablation), [`bhc6/ECT-Qwen3-VL-4B`](https://huggingface.co/bhc6/ECT-Qwen3-VL-4B), [`bhc6/ECT-InternVL3.5-2B`](https://huggingface.co/bhc6/ECT-InternVL3.5-2B), [`bhc6/ECT-LLaVA-OneVision-7B`](https://huggingface.co/bhc6/ECT-LLaVA-OneVision-7B). This repository holds the code and results used
 to check the paper's analyses; section references ("supplement Sec. B") point to the supplementary material
 appended to the arXiv PDF.
 The four CPU commands below run from a fresh clone without a dataset download, GPU or model weights.
@@ -138,7 +138,7 @@ License Agreement; see the model cards. QICD, Ego-MC-Bench and CaptainCook4D kee
 @article{chen2026speak,
   title   = {Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock},
   author  = {Chen, Bohe},
-  journal = {arXiv preprint arXiv:ARXIV_ID},
+  journal = {arXiv preprint arXiv:2611.30895},
   year    = {2026}
 }
 ```

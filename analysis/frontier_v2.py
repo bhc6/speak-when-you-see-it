@@ -1,4 +1,4 @@
-"""Video-blind frontier of the paper (arXiv v2): upper convex hull of the measured rule policies (frontier_canon.py)
+"""Video-blind frontier of the paper: upper convex hull of the measured rule policies (frontier_canon.py)
 together with the learned blind policy on the paper's inputs ('strict' in data/blind_strong/summary_strong.json:
 instruction text, step index, elapsed time, training priors; tuned on the test set like the rules). fr(ds, ic) = best blind F1
 at IC-Acc >= ic; margin = F1 - fr."""
